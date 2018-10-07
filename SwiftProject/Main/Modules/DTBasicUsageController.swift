@@ -29,6 +29,20 @@ class DTBasicUsageController: DTBaseViewController {
         let cell1 = _creatCell(section: section1! , text: "基础操作符")
         let cell2 = _creatCell(section: section1! , text: "函数")
         let cell3 = _creatCell(section: section1! , text: "集合")
+        
+        
+        cell1.cellClick = {(cell,index) -> Void in
+            print(cell);
+            print(index)
+        }
+        cell2.cellClick = {(cell,index) -> Void in
+            print(cell);
+            print(index)
+        }
+        cell3.cellClick = {(cell,index) -> Void in
+            print(cell);
+            print(index)
+        }
 
         adapter?.reloadData()
     }
