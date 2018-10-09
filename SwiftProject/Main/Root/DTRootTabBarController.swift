@@ -22,8 +22,12 @@ class DTRootTabBarController: UITabBarController {
         let basicUsageVC = DTBasicUsageController()
         let advancedVC = DTAdvancedController()
         let documentVC = DTDocumentController()
-    
-        self.viewControllers = [basicUsageVC,advancedVC,documentVC];
+        
+        let basicUsageNav = DTRootNavgationController(rootViewController: basicUsageVC)
+        let advancedNav = DTRootNavgationController(rootViewController: advancedVC)
+        let documentNav = DTRootNavgationController(rootViewController: documentVC)
+
+        self.viewControllers = [basicUsageNav,advancedNav,documentNav];
 
         let titles = ["基础","进阶","文档"]
         let norImages = ["icon_tab_1","icon_tab_2","icon_tab_3"]

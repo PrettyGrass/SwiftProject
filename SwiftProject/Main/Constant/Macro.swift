@@ -27,8 +27,9 @@ let kScreenBounds                         = UIScreen.main.bounds                
 let kScreenSize                           = kScreenBounds.size                      /* 屏幕大小 */
 let kScreenWidth:CGFloat                  = kScreenSize.width                       /* 屏幕宽度 */
 let kScreenHeight:CGFloat                 = kScreenSize.height                      /* 屏幕高度 */
-let kNavigationHeight :CGFloat            = UINavigationBar.appearance().frame.size.height  /* 导航条高度*/
+let kNavigationHeight :CGFloat            = 44                                      /* 导航条高度*/
 let kStatuBarHeight   :CGFloat            = UIApplication.shared.statusBarFrame.size.height  /* 状态栏高度 20*/
+let kTabbarHeight                         = 49
 let kNavigationHeightAndStatuBarHeight    = kNavigationHeight + kStatuBarHeight
 
 //屏幕分辨率比例
@@ -67,11 +68,19 @@ func iPhonePlus() ->Bool {
 }
 
 func isIPhoneX() ->Bool {
-    return __CGSizeEqualToSize(CGSize.init(width: 1125, height: 2436), kScreenBounds.size)
+    return __CGSizeEqualToSize(CGSize.init(width: 375, height: 812), kScreenBounds.size)
 }
 
-func tabBarBottomMargin()->CGFloat {
-   return isIPhoneX() ? 34.0 : 0.0
+func isIPhoneXsMax() ->Bool {
+    return __CGSizeEqualToSize(CGSize.init(width: 414, height: 896), kScreenBounds.size)
+}
+
+func tabBarBottomMargin()->Int {
+    var safeBottom = 0
+    if (isIPhoneX() || isIPhoneXsMax()) {
+        safeBottom = 34
+    }
+    return safeBottom;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

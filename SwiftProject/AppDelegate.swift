@@ -17,10 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        
         let tabBar = DTRootTabBarController()
-        let rootNav = DTRootNavgationController(rootViewController: tabBar)
-        window?.rootViewController = rootNav
+        window?.rootViewController = tabBar
         window?.makeKeyAndVisible()
 
         return true

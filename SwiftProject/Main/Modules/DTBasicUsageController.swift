@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class DTBasicUsageController: DTBaseViewController {
 
@@ -15,25 +16,49 @@ class DTBasicUsageController: DTBaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        title = "基础"
         _initUI()
     }
     
     func _initUI() -> Void {
         
-        view.addSubview(tableView)
-        tableView.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight)
+        view.addSubview(tableView)        
+        tableView.snp.makeConstraints { (ConstraintMaker) in
+            ConstraintMaker.left.right.equalToSuperview()
+            ConstraintMaker.bottom.equalTo(self.view).offset(-tabBarBottomMargin()-kTabbarHeight)
+            ConstraintMaker.top.equalTo(self.view).offset(kNavigationHeightAndStatuBarHeight)        }
         adapter = LLTableViewAdapter(tableView: tableView)
         
         let section1 = adapter!.addNewSection()
-        let cell1 = _creatCell(section: section1! , text: "基础操作符")
-        let cell2 = _creatCell(section: section1! , text: "函数")
-        let cell3 = _creatCell(section: section1! , text: "集合")
-        
-        
+        let cell1 = _creatCell(section: section1! , text: "字符串和字符")
+        let cell2 = _creatCell(section: section1! , text: "集合类型")
+        let cell3 = _creatCell(section: section1! , text: "控制流")
+        let cell4 = _creatCell(section: section1! , text: "函数")
+        let cell5 = _creatCell(section: section1! , text: "闭包")
+        let cell6 = _creatCell(section: section1! , text: "枚举")
+        let cell7 = _creatCell(section: section1! , text: "类和结构体")
+        let cell9 = _creatCell(section: section1! , text: "属性")
+        let cell10 = _creatCell(section: section1! , text: "方法")
+        let cell11 = _creatCell(section: section1! , text: "下标")
+        let cell12 = _creatCell(section: section1! , text: "继承")
+        let cell13 = _creatCell(section: section1! , text: "初始化")
+        let cell14 = _creatCell(section: section1! , text: "反初始化")
+        let cell15 = _creatCell(section: section1! , text: "自动引用计数")
+        let cell16 = _creatCell(section: section1! , text: "可选链")
+        let cell17 = _creatCell(section: section1! , text: "错误处理")
+        let cell18 = _creatCell(section: section1! , text: "类型转换")
+        let cell19 = _creatCell(section: section1! , text: "内嵌类型")
+        let cell20 = _creatCell(section: section1! , text: "扩展")
+        let cell21 = _creatCell(section: section1! , text: "协议")
+        let cell22 = _creatCell(section: section1! , text: "泛型")
+        let cell23 = _creatCell(section: section1! , text: "内存安全性")
+        let cell24 = _creatCell(section: section1! , text: "访问控制")
+        let cell25 = _creatCell(section: section1! , text: "高级运算符")
+
         cell1.cellClick = {(cell,index) -> Void in
-            print(cell);
-            print(index)
+            let targetVC = DTStringViewController()
+            targetVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(targetVC, animated: true)
         }
         cell2.cellClick = {(cell,index) -> Void in
             print(cell);
