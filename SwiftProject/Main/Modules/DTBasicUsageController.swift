@@ -30,6 +30,8 @@ class DTBasicUsageController: DTBaseViewController {
         adapter = LLTableViewAdapter(tableView: tableView)
         
         let section1 = adapter!.addNewSection()
+        section1?.sectionTitle = "Swift4.2基础语法"
+        
         let cell1 = _creatCell(section: section1! , text: "字符串和字符")
         let cell2 = _creatCell(section: section1! , text: "集合类型")
         let cell3 = _creatCell(section: section1! , text: "控制流")
@@ -73,10 +75,9 @@ class DTBasicUsageController: DTBaseViewController {
     }
     
     func _creatCell(section: LLTableSection<LLBaseCell<AnyObject>, LLBaseCell<AnyObject>, LLBaseCell<AnyObject>>,text: String ) -> LLTableCell<AnyObject> {
-        
         let cell = section.buildAddCell() as! LLTableCell
         cell.text = text
-        cell.cellHeight = 45
+        cell.cellHeight = 50
         cell.cellClazz = UITableViewCell.self
         return cell
     }

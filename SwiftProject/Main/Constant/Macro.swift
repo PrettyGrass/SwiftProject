@@ -47,10 +47,6 @@ func adaptedHeight(height:CGFloat) ->CGFloat {
     return CGFloat(ceil(Float(height))) * screenHeightRatio
 }
 
-func iPhone4() ->Bool {
-    return UIScreen.main.bounds.size.height == 480.0
-}
-
 func iPhone5() ->Bool {
     return UIScreen.main.bounds.size.height == 568.0
 }
