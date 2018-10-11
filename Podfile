@@ -4,8 +4,8 @@ use_frameworks!
 inhibit_all_warnings!
 
 def common_static
-    pod 'SnapKit', '= 4.0.0' #AutoLayout
-
+    pod 'SnapKit', '= 4.0.1' #AutoLayout
+    pod 'PGSwiftExtensions'
 end
 
 def common

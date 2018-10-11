@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import PGSwiftExtensions
 
 class DTBasicUsageController: DTBaseViewController {
 
@@ -25,8 +26,9 @@ class DTBasicUsageController: DTBaseViewController {
         view.addSubview(tableView)        
         tableView.snp.makeConstraints { (ConstraintMaker) in
             ConstraintMaker.left.right.equalToSuperview()
-            ConstraintMaker.bottom.equalTo(self.view).offset(-tabBarBottomMargin()-kTabbarHeight)
-            ConstraintMaker.top.equalTo(self.view).offset(kNavigationHeightAndStatuBarHeight)        }
+            ConstraintMaker.bottom.equalTo(self.view).offset(-safeBottomMargin()-kTabbarHeight)
+            ConstraintMaker.top.equalTo(self.view).offset(kSafeTopMargin)
+        }
         adapter = LLTableViewAdapter(tableView: tableView)
         
         let section1 = adapter!.addNewSection()

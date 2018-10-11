@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F29FB0E7D1AB69CFFD8B5DB /* Pods_SwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8850CD8866F37C666FA89B /* Pods_SwiftProject.framework */; };
 		F31A2E69216C5E9500575E65 /* DTStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A2E68216C5E9500575E65 /* DTStringViewController.swift */; };
+		F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356A03A216EEE51004978D6 /* ColorConstant.swift */; };
 		F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F372386D2160C85A003A2CB6 /* Assert.xcassets */; };
 		F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */; };
 		F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578352160A2240069CA62 /* AppDelegate.swift */; };
@@ -19,8 +20,6 @@
 		F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578532160A8FB0069CA62 /* DTAdvancedController.swift */; };
 		F3B578562160A9730069CA62 /* DTDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578552160A9730069CA62 /* DTDocumentViewController.swift */; };
 		F3B578582160AC230069CA62 /* DTRootNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578572160AC230069CA62 /* DTRootNavgationController.swift */; };
-		F3B578662160AED80069CA62 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578602160AED80069CA62 /* ColorConstant.swift */; };
-		F3B5786A2160AED80069CA62 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578642160AED80069CA62 /* Macro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +27,7 @@
 		DF8850CD8866F37C666FA89B /* Pods_SwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19FB5AD265CCFBD6F2BE42D /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F31A2E68216C5E9500575E65 /* DTStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTStringViewController.swift; sourceTree = "<group>"; };
+		F356A03A216EEE51004978D6 /* ColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
 		F372386D2160C85A003A2CB6 /* Assert.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assert.xcassets; sourceTree = "<group>"; };
 		F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QutuiColorExtension.swift; sourceTree = "<group>"; };
 		F37238792160CF62003A2CB6 /* ThirdBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdBridgeHeader.h; sourceTree = "<group>"; };
@@ -41,8 +41,6 @@
 		F3B578532160A8FB0069CA62 /* DTAdvancedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTAdvancedController.swift; sourceTree = "<group>"; };
 		F3B578552160A9730069CA62 /* DTDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTDocumentViewController.swift; sourceTree = "<group>"; };
 		F3B578572160AC230069CA62 /* DTRootNavgationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTRootNavgationController.swift; sourceTree = "<group>"; };
-		F3B578602160AED80069CA62 /* ColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
-		F3B578642160AED80069CA62 /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,8 +178,7 @@
 		F3B5785E2160AED80069CA62 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
-				F3B578602160AED80069CA62 /* ColorConstant.swift */,
-				F3B578642160AED80069CA62 /* Macro.swift */,
+				F356A03A216EEE51004978D6 /* ColorConstant.swift */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -280,12 +277,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LLTableViewAdapter/LLTableViewAdapter.framework",
+				"${BUILT_PRODUCTS_DIR}/PGSwiftExtensions/PGSwiftExtensions.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLTableViewAdapter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGSwiftExtensions.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -303,13 +304,12 @@
 				F3B578562160A9730069CA62 /* DTDocumentViewController.swift in Sources */,
 				F3B578502160A8040069CA62 /* DTBaseViewController.swift in Sources */,
 				F3B578522160A8C70069CA62 /* DTBasicUsageController.swift in Sources */,
-				F3B5786A2160AED80069CA62 /* Macro.swift in Sources */,
+				F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */,
 				F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */,
 				F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */,
 				F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */,
 				F3B5784B2160A5990069CA62 /* DTRootTabBarController.swift in Sources */,
 				F31A2E69216C5E9500575E65 /* DTStringViewController.swift in Sources */,
-				F3B578662160AED80069CA62 /* ColorConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftProject.SwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SwiftProject/Main/Bridge/ThirdBridgeHeader.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -482,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftProject.SwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/SwiftProject/Main/Bridge/ThirdBridgeHeader.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

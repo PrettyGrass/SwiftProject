@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PGSwiftExtensions
 
 class DTStringViewController: DTBaseViewController {
     
@@ -21,8 +22,8 @@ class DTStringViewController: DTBaseViewController {
         
         tableView.snp.makeConstraints { (ConstraintMaker) in
             ConstraintMaker.left.right.equalToSuperview()
-            ConstraintMaker.bottom.equalTo(self.view).offset(-tabBarBottomMargin())
-            ConstraintMaker.top.equalTo(self.view).offset(kNavigationHeightAndStatuBarHeight)
+            ConstraintMaker.bottom.equalTo(self.view).offset(-safeBottomMargin())
+            ConstraintMaker.top.equalTo(self.view).offset(kSafeTopMargin)
         }
         adapter = LLTableViewAdapter(tableView: tableView)
         _demoCode()
