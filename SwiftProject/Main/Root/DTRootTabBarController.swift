@@ -23,9 +23,9 @@ class DTRootTabBarController: UITabBarController {
         let advancedVC = DTAdvancedController()
         let documentVC = DTDocumentController()
         
-        let basicUsageNav = DTRootNavgationController(rootViewController: basicUsageVC)
-        let advancedNav = DTRootNavgationController(rootViewController: advancedVC)
-        let documentNav = DTRootNavgationController(rootViewController: documentVC)
+        let basicUsageNav = RTContainerNavigationController.init(rootViewController: basicUsageVC)
+        let advancedNav = RTContainerNavigationController.init(rootViewController: advancedVC)
+        let documentNav = RTContainerNavigationController.init(rootViewController: documentVC)
 
         self.viewControllers = [basicUsageNav,advancedNav,documentNav];
 

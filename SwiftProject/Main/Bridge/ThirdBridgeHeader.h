@@ -10,6 +10,6 @@
 #define ThirdBridgeHeader_h
 
 #import "LLTableViewAdapter/LLAdapter.h"
-
+#import "RTRootNavigationController/RTRootNavigationController.h"
 
 #endif /* ThirdBridgeHeader_h */

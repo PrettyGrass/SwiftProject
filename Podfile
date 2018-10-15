@@ -11,6 +11,7 @@ end
 def common
     ios_comp = 'git@g.dou-pai.com:ios_component/'
     pod 'LLTableViewAdapter',                       :git => ios_comp+'LLTableViewAdapter.git', :branch => '1.2.0'
+    pod 'RTRootNavigationController',               :git => 'git@g.dou-pai.com:ios_component/RTRootNavigationController.git', :branch => '0.7.0'
 end
 
 target 'SwiftProject' do

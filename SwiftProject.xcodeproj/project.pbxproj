@@ -20,6 +20,11 @@
 		F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578532160A8FB0069CA62 /* DTAdvancedController.swift */; };
 		F3B578562160A9730069CA62 /* DTDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578552160A9730069CA62 /* DTDocumentViewController.swift */; };
 		F3B578582160AC230069CA62 /* DTRootNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578572160AC230069CA62 /* DTRootNavgationController.swift */; };
+		F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB39217429AD00D27D5C /* Const.swift */; };
+		F3EFBB3E2174322D00D27D5C /* DescCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB3C2174322D00D27D5C /* DescCell.swift */; };
+		F3EFBB3F2174322D00D27D5C /* DescCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EFBB3D2174322D00D27D5C /* DescCell.xib */; };
+		F3EFBB412174335B00D27D5C /* PGVerticalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB402174335B00D27D5C /* PGVerticalLabel.swift */; };
+		F3EFBB49217446DD00D27D5C /* AdapterCellUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,11 @@
 		F3B578532160A8FB0069CA62 /* DTAdvancedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTAdvancedController.swift; sourceTree = "<group>"; };
 		F3B578552160A9730069CA62 /* DTDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTDocumentViewController.swift; sourceTree = "<group>"; };
 		F3B578572160AC230069CA62 /* DTRootNavgationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTRootNavgationController.swift; sourceTree = "<group>"; };
+		F3EFBB39217429AD00D27D5C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		F3EFBB3C2174322D00D27D5C /* DescCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescCell.swift; sourceTree = "<group>"; };
+		F3EFBB3D2174322D00D27D5C /* DescCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescCell.xib; sourceTree = "<group>"; };
+		F3EFBB402174335B00D27D5C /* PGVerticalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGVerticalLabel.swift; sourceTree = "<group>"; };
+		F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterCellUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +82,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F31A2E67216C5E5400575E65 /* BasicUsageVC */ = {
+		F31A2E67216C5E5400575E65 /* 基础使用 */ = {
 			isa = PBXGroup;
 			children = (
 				F31A2E68216C5E9500575E65 /* DTStringViewController.swift */,
 			);
-			path = BasicUsageVC;
+			path = "基础使用";
 			sourceTree = "<group>";
 		};
 		F372386F2160CC62003A2CB6 /* Extension */ = {
@@ -137,6 +147,7 @@
 		F3B578482160A2510069CA62 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F3EFBB472174468400D27D5C /* Util */,
 				F37238782160CF49003A2CB6 /* Bridge */,
 				F3B5785E2160AED80069CA62 /* Constant */,
 				F3B5784D2160A7AE0069CA62 /* Common */,
@@ -159,7 +170,8 @@
 		F3B5784C2160A7640069CA62 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				F31A2E67216C5E5400575E65 /* BasicUsageVC */,
+				F3EFBB3B2174320D00D27D5C /* View */,
+				F31A2E67216C5E5400575E65 /* 基础使用 */,
 				F3B578512160A8C70069CA62 /* DTBasicUsageController.swift */,
 				F3B578532160A8FB0069CA62 /* DTAdvancedController.swift */,
 				F3B578552160A9730069CA62 /* DTDocumentViewController.swift */,
@@ -179,8 +191,27 @@
 			isa = PBXGroup;
 			children = (
 				F356A03A216EEE51004978D6 /* ColorConstant.swift */,
+				F3EFBB39217429AD00D27D5C /* Const.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		F3EFBB3B2174320D00D27D5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3EFBB3C2174322D00D27D5C /* DescCell.swift */,
+				F3EFBB3D2174322D00D27D5C /* DescCell.xib */,
+				F3EFBB402174335B00D27D5C /* PGVerticalLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3EFBB472174468400D27D5C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +276,7 @@
 			files = (
 				F3B578402160A2250069CA62 /* LaunchScreen.storyboard in Resources */,
 				F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */,
+				F3EFBB3F2174322D00D27D5C /* DescCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +310,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LLTableViewAdapter/LLTableViewAdapter.framework",
 				"${BUILT_PRODUCTS_DIR}/PGSwiftExtensions/PGSwiftExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
@@ -285,6 +318,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLTableViewAdapter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGSwiftExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
@@ -300,16 +334,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EFBB3E2174322D00D27D5C /* DescCell.swift in Sources */,
 				F3B578582160AC230069CA62 /* DTRootNavgationController.swift in Sources */,
 				F3B578562160A9730069CA62 /* DTDocumentViewController.swift in Sources */,
 				F3B578502160A8040069CA62 /* DTBaseViewController.swift in Sources */,
 				F3B578522160A8C70069CA62 /* DTBasicUsageController.swift in Sources */,
+				F3EFBB49217446DD00D27D5C /* AdapterCellUtil.swift in Sources */,
 				F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */,
+				F3EFBB412174335B00D27D5C /* PGVerticalLabel.swift in Sources */,
 				F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */,
 				F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */,
 				F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */,
 				F3B5784B2160A5990069CA62 /* DTRootTabBarController.swift in Sources */,
 				F31A2E69216C5E9500575E65 /* DTStringViewController.swift in Sources */,
+				F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
