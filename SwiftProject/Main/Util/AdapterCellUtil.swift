@@ -42,7 +42,7 @@ class AdapterCellUtil: NSObject {
         let cell = AdapterCellUtil.creatCell(section: section, text: desc)
         cell.cellClazz = DescCell.self
         cell.selectionStyle = UITableViewCell.SelectionStyle.none
-        cell.separatorStyle = .inner
+        cell.separatorStyle = LLTableViewCellSeparatorStyle.inner 
         cell.loadType = LLCellLoadType.nib
         cell.cellNibName = "DescCell"
         cell.cellIdentity = "DescCell";

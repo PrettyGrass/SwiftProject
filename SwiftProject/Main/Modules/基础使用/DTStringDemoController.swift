@@ -9,29 +9,18 @@
 import UIKit
 import PGSwiftExtensions
 
-class DTStringViewController: DTBaseViewController {
+class DTStringDemoController: DTBaseViewController {
     
-    var adapter: LLTableViewAdapter?
-    let tableView = UITableView.init()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "String"
-        view.addSubview(tableView)
-        
-        tableView.snp.makeConstraints { (ConstraintMaker) in
-            ConstraintMaker.left.right.equalToSuperview()
-            ConstraintMaker.bottom.equalTo(self.view).offset(-safeBottomMargin())
-            ConstraintMaker.top.equalTo(self.view).offset(kSafeTopMargin)
-        }
-        adapter = LLTableViewAdapter(tableView: tableView)
-        _demoCode()
+        super.configDemoTableView()
     }
     
-    func _demoCode()-> Void {
+   override func _demoCode()-> Void {
         let section1 = adapter!.addNewSection()
-
         //MARK: 初始化
         AdapterCellUtil.creatCell(section: section1!, text: "初始化一个String" ,needSeparator: true) { (cell, indexPath) in
             let someString = "Some string literal value 💰"
@@ -147,7 +136,7 @@ class DTStringViewController: DTBaseViewController {
         AdapterCellUtil.descCell(section: section1!, desc: "注意:你不能把 String或者 Character追加到已经存在的 Character变量当中，因为 Character值能且只能包含一个字符。")
         
         //字符串插值
-        AdapterCellUtil.creatCell(section: section1!, text: "字符串插值" ,needSeparator: true) { (cell, indexPath) in
+        AdapterCellUtil.creatCell(section: section1!, text: "字符串插值" ,needSeparator: false) { (cell, indexPath) in
             
             let multiplier = 3
             let message = "1 + 2 = \(multiplier)"
@@ -167,14 +156,13 @@ class DTStringViewController: DTBaseViewController {
         
         //MARK: Unicode
         
-        AdapterCellUtil.creatCell(section: section1!, text: "Unicode" ,needSeparator: true) { (cell, indexPath) in
+        AdapterCellUtil.creatCell(section: section1!, text: "Unicode" ,needSeparator: false) { (cell, indexPath) in
             
         }
         AdapterCellUtil.descCell(section: section1!, desc: "Unicode是一个国际标准，用于文本的编码和表示。它可以用标准格式标识来自任意语言几乎所有的字符,并能够对文本文件或网页这样的外部资源中的字符进行读写操作。 Swift 的 String 和 Character 类型是完全兼容 Unicode 标准的。")
         
-        AdapterCellUtil.creatCell(section: section1!, text: "特殊字符" ,needSeparator: true) { (cell, indexPath) in
+        AdapterCellUtil.creatCell(section: section1!, text: "特殊字符" ,needSeparator: false) { (cell, indexPath) in
         }
-        
         
         let speacialStr = """
         字符串字面量中的特殊字符
@@ -200,7 +188,7 @@ class DTStringViewController: DTBaseViewController {
         AdapterCellUtil.descCell(section: section1!, desc:countStr)
 
         
-        AdapterCellUtil.creatCell(section: section1!, text: "访问和修改字符串" ,needSeparator: true) { (cell, indexPath) in
+        AdapterCellUtil.creatCell(section: section1!, text: "访问和修改字符串" ,needSeparator: false) { (cell, indexPath) in
             
         }
         let stringModify = """
@@ -210,7 +198,7 @@ class DTStringViewController: DTBaseViewController {
         AdapterCellUtil.descCell(section: section1!, desc:stringModify)
         
       
-        AdapterCellUtil.creatCell(section: section1!, text: "字符串索引" ,needSeparator: true) { (cell, indexPath) in
+        AdapterCellUtil.creatCell(section: section1!, text: "字符串索引" ,needSeparator: false) { (cell, indexPath) in
             
             let greeting = "Guten Tag!"
             greeting[greeting.startIndex]
@@ -238,7 +226,7 @@ class DTStringViewController: DTBaseViewController {
             
         }
         
-        AdapterCellUtil.creatCell(section: section1!, text: "字符串的插入,删除" ,needSeparator: true) { (cell, indexPath) in
+        AdapterCellUtil.creatCell(section: section1!, text: "字符串的插入,删除" ,needSeparator: false) { (cell, indexPath) in
             //插入单个字符
             var inserString = "inser targetStr"
             inserString.insert("!", at: inserString.endIndex)
@@ -265,8 +253,7 @@ class DTStringViewController: DTBaseViewController {
 """
         AdapterCellUtil.descCell(section: section1!, desc:insertTip)
         
-        
-        AdapterCellUtil.creatCell(section: section1!, text: "子字符串" ,needSeparator: true) { (cell, indexPath) in
+        AdapterCellUtil.creatCell(section: section1!, text: "子字符串" ,needSeparator: false) { (cell, indexPath) in
             let childString = "hello,world"
             let childIndex = childString.lastIndex(of: ",") ?? childString.endIndex
             //0 到, 之间范围的字符 [character]

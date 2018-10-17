@@ -12,36 +12,24 @@ import PGSwiftExtensions
 
 class DTBasicUsageController: DTBaseViewController {
 
-    var adapter: LLTableViewAdapter?
-    let tableView = UITableView.init()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "基础"
-        _initUI()
+        super.configDemoTableView()
     }
-    
-    func _initUI() -> Void {
-        
-        view.addSubview(tableView)        
-        tableView.snp.makeConstraints { (ConstraintMaker) in
-            ConstraintMaker.left.right.equalToSuperview()
-            ConstraintMaker.bottom.equalTo(self.view).offset(-safeBottomMargin()-kTabbarHeight)
-            ConstraintMaker.top.equalTo(self.view).offset(kSafeTopMargin)
-        }
-        adapter = LLTableViewAdapter(tableView: tableView)
-        
+
+    override func _demoCode() {
         let section1 = adapter!.addNewSection()!
         
         AdapterCellUtil.creatCell(section: section1, text: "字符串和字符", needSeparator: true) { (cell,indexPath) in
-            let targetVC = DTStringViewController()
-            targetVC.hidesBottomBarWhenPushed = true
+            let targetVC = DTStringDemoController()
             self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
         }
         AdapterCellUtil.creatCell(section: section1, text: "集合类型", needSeparator: true) { (cell,indexPath) in
-            
+            let targetVC = DTGatherDemoController()
+            self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
         }
-        AdapterCellUtil.creatCell(section: section1, text: "控制流'", needSeparator: true) { (cell,indexPath) in
+        AdapterCellUtil.creatCell(section: section1, text: "控制流", needSeparator: true) { (cell,indexPath) in
             
         }
         AdapterCellUtil.creatCell(section: section1, text: "函数", needSeparator: true) { (cell,indexPath) in
