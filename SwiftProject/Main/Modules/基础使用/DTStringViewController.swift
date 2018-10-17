@@ -89,13 +89,15 @@ class DTStringViewController: DTBaseViewController {
             print("variableString:",variableString)
         }
        
-        AdapterCellUtil.descCell(section: section1!, desc: " Tip:这个功能与 Objective-C 和 Cocoa 中的字符串改变不同，通过选择不同的类（NSString和 NSMutableString）来明确字符串是否可被改变。", cellHeight: 90)
+        AdapterCellUtil.descCell(section: section1!, desc: " Tip:这个功能与 Objective-C 和 Cocoa 中的字符串改变不同，通过选择不同的类（NSString和 NSMutableString）来明确字符串是否可被改变。")
         
         
         AdapterCellUtil.creatCell(section: section1!, text: "String是值类型" ,needSeparator: false) { (cell, indexPath) in
         }
+        
+        
 
-        AdapterCellUtil.descCell(section: section1!, desc: "如果你创建了一个新的字符串，那么当其进行常量、变量赋值操作，或在函数/方法中传递时，会进行值拷贝。 任何情况下，都会对已有字符串值创建新副本，并对该新副本进行传递或赋值操作。", cellHeight: 120)
+        AdapterCellUtil.descCell(section: section1!, desc: "如果你创建了一个新的字符串，那么当其进行常量、变量赋值操作，或在函数/方法中传递时，会进行值拷贝。 任何情况下，都会对已有字符串值创建新副本，并对该新副本进行传递或赋值操作。")
         
         AdapterCellUtil.creatCell(section: section1!, text: "遍历字符串",needSeparator: true) { (cell, indexPath) in
             // 循环来遍历字符串 ,获取字符串中每一个字符的值：
@@ -110,7 +112,7 @@ class DTStringViewController: DTBaseViewController {
         //MARK: Character:
         AdapterCellUtil.creatCell(section: section1!, text: "Character类型" ,needSeparator: false) { (cell, indexPath) in
         }
-        AdapterCellUtil.descCell(section: section1!, desc: "可以建立一个独立字符常量,或变量。", cellHeight: 50)
+        AdapterCellUtil.descCell(section: section1!, desc: "可以建立一个独立字符常量,或变量。")
 
         AdapterCellUtil.creatCell(section: section1!, text: "初始化Character数组" ,needSeparator: false) { (cell, indexPath) in
             let catCharacters: [Character] = ["C", "a", "t", "!", "🐱"]
@@ -124,7 +126,7 @@ class DTStringViewController: DTBaseViewController {
         let catString = String(catCharacters)
         print(catString)
 """
-        AdapterCellUtil.descCell(section: section1!, desc: code1, cellHeight: 140)
+        AdapterCellUtil.descCell(section: section1!, desc: code1)
 
         
         AdapterCellUtil.creatCell(section: section1!, text: "拼接字符串和字符" ,needSeparator: false) { (cell, indexPath) in
@@ -142,7 +144,7 @@ class DTStringViewController: DTBaseViewController {
             print(welcome)
         }
         
-        AdapterCellUtil.descCell(section: section1!, desc: "注意:你不能把 String或者 Character追加到已经存在的 Character变量当中，因为 Character值能且只能包含一个字符。", cellHeight: 50)
+        AdapterCellUtil.descCell(section: section1!, desc: "注意:你不能把 String或者 Character追加到已经存在的 Character变量当中，因为 Character值能且只能包含一个字符。")
         
         //字符串插值
         AdapterCellUtil.creatCell(section: section1!, text: "字符串插值" ,needSeparator: true) { (cell, indexPath) in
@@ -156,20 +158,19 @@ class DTStringViewController: DTBaseViewController {
             let message1 = "1 + 2 = \(Int(multiplier1))"
             print(message1)
         }
-        AdapterCellUtil.descCell(section: section1!, desc: "字符串插值是一种构建新字符串的方式，可以在其中包含常量、变量、字面量和表达式", cellHeight: 50)
+        AdapterCellUtil.descCell(section: section1!, desc: "字符串插值是一种构建新字符串的方式，可以在其中包含常量、变量、字面量和表达式")
         
 
         AdapterCellUtil.creatCell(section: section1!, text: "" ,needSeparator: true) { (cell, indexPath) in
             
         }
         
-        
         //MARK: Unicode
         
         AdapterCellUtil.creatCell(section: section1!, text: "Unicode" ,needSeparator: true) { (cell, indexPath) in
             
         }
-        AdapterCellUtil.descCell(section: section1!, desc: "Unicode是一个国际标准，用于文本的编码和表示。它可以用标准格式标识来自任意语言几乎所有的字符,并能够对文本文件或网页这样的外部资源中的字符进行读写操作。 Swift 的 String 和 Character 类型是完全兼容 Unicode 标准的。", cellHeight: 90)
+        AdapterCellUtil.descCell(section: section1!, desc: "Unicode是一个国际标准，用于文本的编码和表示。它可以用标准格式标识来自任意语言几乎所有的字符,并能够对文本文件或网页这样的外部资源中的字符进行读写操作。 Swift 的 String 和 Character 类型是完全兼容 Unicode 标准的。")
         
         AdapterCellUtil.creatCell(section: section1!, text: "特殊字符" ,needSeparator: true) { (cell, indexPath) in
         }
@@ -180,7 +181,7 @@ class DTStringViewController: DTBaseViewController {
         转义特殊字符 \\0 (空字符)， \\(反斜杠)， \\t (水平制表符)， \\n (换行符)， \\r(回车符)， \" (双引号) 以及 \' (单引号)；
         任意的 Unicode 标量，写作 \\u{n}，里边的 n是一个 1-8 个与合法 Unicode 码位相等的16进制数字。
         """
-        AdapterCellUtil.descCell(section: section1!, desc:speacialStr, cellHeight: 90)
+        AdapterCellUtil.descCell(section: section1!, desc:speacialStr)
         
         AdapterCellUtil.creatCell(section: section1!, text: "计算字符数量" ,needSeparator: true) { (cell, indexPath) in
             
@@ -196,7 +197,7 @@ class DTStringViewController: DTBaseViewController {
         扩展字形集群能够组合一个或者多个 Unicode 标量。这意味着不同的字符——以及相同字符的不同表示——能够获得不同大小的内存来储存。因此，Swift 中的字符并不会在字符串中获得相同的内存空间。所以说，字符串中字符的数量如果不遍历它的扩展字形集群边界的话，是不能被计算出来的。如果你在操作特殊的长字符串值，要注意 count属性为了确定字符串中的字符要遍历整个字符串的 Unicode 标量。
         通过 count属性返回的字符统计并不会总是与包含相同字符的 NSString中 length属性相同。 NSString中的长度是基于在字符串的 UTF-16 表示中16位码元的数量来表示的，而不是字符串中 Unicode 扩展字形集群的数量。
 """
-        AdapterCellUtil.descCell(section: section1!, desc:countStr, cellHeight: 90)
+        AdapterCellUtil.descCell(section: section1!, desc:countStr)
 
         
         AdapterCellUtil.creatCell(section: section1!, text: "访问和修改字符串" ,needSeparator: true) { (cell, indexPath) in
@@ -206,7 +207,7 @@ class DTStringViewController: DTBaseViewController {
         append lowercased:转换小写 uppercased:大写 分割,通过下标等修改
         你可以通过下标脚本语法或者它自身的属性和方法来访问和修改字符串。
 """
-        AdapterCellUtil.descCell(section: section1!, desc:stringModify, cellHeight: 90)
+        AdapterCellUtil.descCell(section: section1!, desc:stringModify)
         
       
         AdapterCellUtil.creatCell(section: section1!, text: "字符串索引" ,needSeparator: true) { (cell, indexPath) in
@@ -227,7 +228,7 @@ class DTStringViewController: DTBaseViewController {
         每一个 String值都有相关的索引类型， String.Index，它相当于每个 Character在字符串中的位置。
         不同的字符会获得不同的内存空间来储存，所以为了明确哪个 Character 在哪个特定的位置，你必须从 String的开头或结尾遍历每一个 Unicode 标量。因此，Swift 的字符串不能通过整数值索引。
 """
-        AdapterCellUtil.descCell(section: section1!, desc:indexString, cellHeight: 90)
+        AdapterCellUtil.descCell(section: section1!, desc:indexString)
         AdapterCellUtil.creatCell(section: section1!, text: "字符串的indices属性" ,needSeparator: true) { (cell, indexPath) in
             
             let greeting = "Guten Tag!"
@@ -262,7 +263,7 @@ class DTStringViewController: DTBaseViewController {
         let insertTip = """
 你可以在任何遵循了 RangeReplaceableIndexable 协议的类型中使用 insert(_:at:) ， insert(contentsOf:at:) ， remove(at:) 方法。这包括了这里使用的 String ，同样还有集合类型比如 Array ， Dictionary 和 Set
 """
-        AdapterCellUtil.descCell(section: section1!, desc:insertTip, cellHeight: 90)
+        AdapterCellUtil.descCell(section: section1!, desc:insertTip)
         
         
         AdapterCellUtil.creatCell(section: section1!, text: "子字符串" ,needSeparator: true) { (cell, indexPath) in
@@ -275,7 +276,7 @@ class DTStringViewController: DTBaseViewController {
 
         }
 
-        AdapterCellUtil.descCell(section: section1!, desc:"Swift 提供了三种方法来比较文本值：字符串和字符相等性，前缀相等性以及后缀相等性。", cellHeight: 90)
+        AdapterCellUtil.descCell(section: section1!, desc:"Swift 提供了三种方法来比较文本值：字符串和字符相等性，前缀相等性以及后缀相等性。")
         
         AdapterCellUtil.creatCell(section: section1!, text: "字符串比较" ,needSeparator: true) { (cell, indexPath) in
             

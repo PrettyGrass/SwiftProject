@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PGSwiftExtensions
 
 class AdapterCellUtil: NSObject {
     
@@ -37,7 +38,7 @@ class AdapterCellUtil: NSObject {
     // 项目中的描述cell
     //
     @discardableResult
-    static func descCell(section: LLTableSection<LLBaseCell<AnyObject>, LLBaseCell<AnyObject>, LLBaseCell<AnyObject>>,desc:String,cellHeight: CGFloat) -> LLTableCell<AnyObject> {
+    static func descCell(section: LLTableSection<LLBaseCell<AnyObject>, LLBaseCell<AnyObject>, LLBaseCell<AnyObject>>,desc:String) -> LLTableCell<AnyObject> {
         let cell = AdapterCellUtil.creatCell(section: section, text: desc)
         cell.cellClazz = DescCell.self
         cell.selectionStyle = UITableViewCell.SelectionStyle.none
@@ -45,7 +46,9 @@ class AdapterCellUtil: NSObject {
         cell.loadType = LLCellLoadType.nib
         cell.cellNibName = "DescCell"
         cell.cellIdentity = "DescCell";
-        cell.cellHeight = cellHeight;
+
+        let maxWidth = kScreenWidth - 32.0
+        cell.cellHeight = desc.height(maxWidth, font: UIFont.systemFont(ofSize: 14), lineBreakMode: NSLineBreakMode.byWordWrapping);
         return cell
     }
 

@@ -20,15 +20,15 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mY8-O9-p5e" customClass="PGVerticalLabel" customModule="SwiftProject" customModuleProvider="target">
-                        <rect key="frame" x="16" y="16" width="304" height="75.5"/>
+                        <rect key="frame" x="16" y="0.0" width="304" height="107.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.40784313729999999" green="0.41176470590000003" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="mY8-O9-p5e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="SPy-T3-J7J"/>
-                    <constraint firstAttribute="bottom" secondItem="mY8-O9-p5e" secondAttribute="bottom" constant="16" id="UXv-CL-rto"/>
+                    <constraint firstItem="mY8-O9-p5e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="SPy-T3-J7J"/>
+                    <constraint firstAttribute="bottom" secondItem="mY8-O9-p5e" secondAttribute="bottom" id="UXv-CL-rto"/>
                     <constraint firstAttribute="trailing" secondItem="mY8-O9-p5e" secondAttribute="trailing" constant="16" id="gkI-sR-ige"/>
                     <constraint firstItem="mY8-O9-p5e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="l2z-xw-012"/>
                 </constraints>

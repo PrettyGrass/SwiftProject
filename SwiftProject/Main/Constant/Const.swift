@@ -10,3 +10,5 @@ import UIKit
 
 @_exported import RTRootNavigationController
 @_exported import LLTableViewAdapter
+@_exported import PGSwiftExtensions
+
