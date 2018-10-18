@@ -30,7 +30,8 @@ class DTBasicUsageController: DTBaseViewController {
             self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
         }
         AdapterCellUtil.creatCell(section: section1, text: "控制流", needSeparator: true) { (cell,indexPath) in
-            
+            let targetVC = DTControlFlowController()
+            self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
         }
         AdapterCellUtil.creatCell(section: section1, text: "函数", needSeparator: true) { (cell,indexPath) in
             

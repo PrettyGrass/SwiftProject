@@ -10,6 +10,7 @@
 		2F29FB0E7D1AB69CFFD8B5DB /* Pods_SwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8850CD8866F37C666FA89B /* Pods_SwiftProject.framework */; };
 		F31A2E69216C5E9500575E65 /* DTStringDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A2E68216C5E9500575E65 /* DTStringDemoController.swift */; };
 		F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */; };
+		F32FF6E42178249E0025A5DC /* DTControlFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */; };
 		F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356A03A216EEE51004978D6 /* ColorConstant.swift */; };
 		F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F372386D2160C85A003A2CB6 /* Assert.xcassets */; };
 		F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */; };
@@ -34,6 +35,7 @@
 		F19FB5AD265CCFBD6F2BE42D /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F31A2E68216C5E9500575E65 /* DTStringDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTStringDemoController.swift; sourceTree = "<group>"; };
 		F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTGatherDemoController.swift; sourceTree = "<group>"; };
+		F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTControlFlowController.swift; sourceTree = "<group>"; };
 		F356A03A216EEE51004978D6 /* ColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
 		F372386D2160C85A003A2CB6 /* Assert.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assert.xcassets; sourceTree = "<group>"; };
 		F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QutuiColorExtension.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				F31A2E68216C5E9500575E65 /* DTStringDemoController.swift */,
 				F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */,
+				F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */,
 			);
 			path = "基础使用";
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */,
 				F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */,
 				F3B5784B2160A5990069CA62 /* DTRootTabBarController.swift in Sources */,
+				F32FF6E42178249E0025A5DC /* DTControlFlowController.swift in Sources */,
 				F31A2E69216C5E9500575E65 /* DTStringDemoController.swift in Sources */,
 				F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */,
 			);

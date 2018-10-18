@@ -4,6 +4,7 @@
         <page name='String'/>
         <page name='Array'/>
         <page name='Set'/>
-        <page name='Dictionary.xcplaygroundpage'/>
+        <page name='Dictionary'/>
+        <page name='FlowControl'/>
     </pages>
 </playground>
