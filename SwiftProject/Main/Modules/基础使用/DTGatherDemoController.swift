@@ -306,8 +306,6 @@ a == b && b == c 意味着 a == c  (传递性)
             //插入
             demoSet.insert("a")
             
-
-            
             //检查包含
             if demoSet.contains("Rock") {
                 print("包含")
@@ -319,7 +317,7 @@ a == b && b == c 意味着 a == c  (传递性)
             demoSet.removeAll()
             
             //快速移除
-            if let removedGenre = demoSet.remove("Rock") {
+            if let _ = demoSet.remove("Rock") {
                 print("包含了Rock 并且移除")
             } else {
                 print("没有包含过Rock")
@@ -327,7 +325,7 @@ a == b && b == c 意味着 a == c  (传递性)
 
         }
         
-        AdapterCellUtil.creatCell(section: section2, text: "遍历集合", needSeparator: false) { (cell,indexPath) in
+        AdapterCellUtil.creatCell(section: section2, text: "遍历集合", needSeparator: true) { (cell,indexPath) in
             //遍历集合
             
             let demoSet: Set<String> = ["Rock", "Classical", "Hip hop"]
@@ -348,7 +346,7 @@ tip: 你可以高效地完成 Set 的一些基本操作，比如把两个集合�
             )
         }
         
-        AdapterCellUtil.creatCell(section: section2, text: "基本集合操作", needSeparator: false) { (cell,indexPath) in
+        AdapterCellUtil.creatCell(section: section2, text: "基本集合操作", needSeparator: true) { (cell,indexPath) in
 
             //使用 intersection(_:) 方法根据两个集合中都包含的值创建的一个新的集合。
             //使用 symmetricDifference(_:) 方法根据在一个集合中但不在两个集合中的值创建一个新的集合。
@@ -356,7 +354,7 @@ tip: 你可以高效地完成 Set 的一些基本操作，比如把两个集合�
             //使用 subtracting(_:) 方法根据不在该集合中的值创建一个新的集合。
         }
         
-        AdapterCellUtil.creatCell(section: section2, text: "集合成员关系和相等", needSeparator: false) { (cell,indexPath) in
+        AdapterCellUtil.creatCell(section: section2, text: "集合成员关系和相等", needSeparator: true) { (cell,indexPath) in
 
             //使用“是否相等”运算符（==）来判断两个集合是否包含全部相同的值。
             //使用 isSubset(of:) 方法来判断一个集合中的值是否也被包含在另外一个集合中。
@@ -387,6 +385,78 @@ tip: 你可以高效地完成 Set 的一些基本操作，比如把两个集合�
         AdapterCellUtil.creatCell(section: section3, text: "字典:", needSeparator: false) { (cell,indexPath) in
             
         }
+        AdapterCellUtil.descCell(section: section3, desc: """
+tip: [Key : Value]  Key 类型必须遵循 Hashable协议,所以Swift中 Key可以是基础数据类型,乃至任意遵循Hashable协议的类
+""")
+        
+        AdapterCellUtil.creatCell(section: section3, text: "创建一个空字典", needSeparator: true) { (cell,indexPath) in
+            //创建一个空字典,指明 key: Int 类型  Value: String类型
+            var namesOfIntegers = [Int: String]()
+            namesOfIntegers[16] = "16"
+        }
+        
+        
+        AdapterCellUtil.creatCell(section: section3, text: "使用字面向量创建字典", needSeparator: true) { (cell,indexPath) in
+            let _: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+    
+        }
+        AdapterCellUtil.creatCell(section: section3, text: "访问和修改字典", needSeparator: true) { (cell,indexPath) in
+            var airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+
+            //数量:airports.count
+            //使用 isEmpty检查count属性是否为空
+            //添加
+            airports["LHR"] = "London"
+            //修改
+            airports["LHR"] = "London Heathrow"
+            
+            //更新旧值
+            if let oldValue = airports.updateValue("Dublin Airport", forKey: "DUB") {
+                print("The old value for DUB was \(oldValue).")
+            }
+            //检索特定的值
+            if let airPortName = airports["DUB"] {
+                print("The name of the airport is \(airPortName).")
+            }
+            
+            //移除
+            airports["APL"] = "Apple Internation"
+            airports["APL"] = nil
+            
+            if let removedValue = airports.removeValue(forKey: "DUB") {
+                print("The removed airport's name is \(removedValue).")
+            } else {
+                print("The airports dictionary does not contain a value for DUB.")
+            }
+
+        }
+        AdapterCellUtil.creatCell(section: section3, text: "遍历字典 [key values]", needSeparator: false) { (cell,indexPath) in
+            let airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+
+            for (aripointCode,airportName) in airports {
+                print("\(aripointCode): \(airportName)")
+            }
+            
+            for airportCode in airports.keys {
+                print("Airport code: \(airportCode)")
+            }
+            
+            for airportName in airports.values {
+                print("Airport name: \(airportName)")
+            }
+            
+            //
+        }
+        AdapterCellUtil.descCell(section: section3, desc: """
+注意:Swift 的字典类型是无序集合类型。为了以特定的顺序遍历字典的键或值，可以对字典的 keys 或 values 属性使用 sorted() 方法。
+""")
+        AdapterCellUtil.creatCell(section: section3, text: "键集合或者值集合构造一个新数组", needSeparator: true) { (cell,indexPath) in
+            let airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+            let _ = [String](airports.keys) //新数组
+            let _ = [String](airports.values)
+            
+        }
+        
     }
  
 
