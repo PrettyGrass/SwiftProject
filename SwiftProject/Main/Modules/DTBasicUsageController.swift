@@ -34,7 +34,8 @@ class DTBasicUsageController: DTBaseViewController {
             self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
         }
         AdapterCellUtil.creatCell(section: section1, text: "函数", needSeparator: true) { (cell,indexPath) in
-            
+            let targetVC = DTFunctionController()
+            self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
         }
         AdapterCellUtil.creatCell(section: section1, text: "闭包", needSeparator: true) { (cell,indexPath) in
             

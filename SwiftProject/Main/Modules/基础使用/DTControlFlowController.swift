@@ -118,8 +118,8 @@ class DTControlFlowController: DTBaseViewController {
             }
             
             //值绑定
-            let anotherPoint = (0,0)
-            
+            //let anotherPoint = (0,0)
+             let anotherPoint = (0,1)
             //switch 语句必须是完备的,至少要匹配上一种情况
             switch anotherPoint {
             case (let x, 0):

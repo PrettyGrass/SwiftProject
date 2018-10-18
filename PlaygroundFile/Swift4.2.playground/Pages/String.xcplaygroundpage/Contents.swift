@@ -135,6 +135,7 @@ class MyViewController : UIViewController {
 
         //# 子字符串
         let childString = "hello,world"
+        //4.2 Swift才有的
         let childIndex = childString.lastIndex(of: ",") ?? greeting.endIndex
         //0 到, 之间范围的字符 [character]
         let beginning = childString[..<childIndex]
