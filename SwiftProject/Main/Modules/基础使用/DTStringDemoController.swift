@@ -83,9 +83,7 @@ class DTStringDemoController: DTBaseViewController {
         
         AdapterCellUtil.creatCell(section: section1!, text: "String是值类型" ,needSeparator: false) { (cell, indexPath) in
         }
-        
-        
-
+                
         AdapterCellUtil.descCell(section: section1!, desc: "如果你创建了一个新的字符串，那么当其进行常量、变量赋值操作，或在函数/方法中传递时，会进行值拷贝。 任何情况下，都会对已有字符串值创建新副本，并对该新副本进行传递或赋值操作。")
         
         AdapterCellUtil.creatCell(section: section1!, text: "遍历字符串",needSeparator: true) { (cell, indexPath) in
@@ -197,7 +195,6 @@ class DTStringDemoController: DTBaseViewController {
 """
         AdapterCellUtil.descCell(section: section1!, desc:stringModify)
         
-      
         AdapterCellUtil.creatCell(section: section1!, text: "字符串索引" ,needSeparator: false) { (cell, indexPath) in
             
             let greeting = "Guten Tag!"
