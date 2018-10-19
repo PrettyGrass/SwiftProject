@@ -16,6 +16,7 @@
 		F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356A03A216EEE51004978D6 /* ColorConstant.swift */; };
 		F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F372386D2160C85A003A2CB6 /* Assert.xcassets */; };
 		F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */; };
+		F3B2EEA12179B9440003E91E /* DTEnumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B2EEA02179B9440003E91E /* DTEnumerations.swift */; };
 		F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578352160A2240069CA62 /* AppDelegate.swift */; };
 		F3B578402160A2250069CA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B5783E2160A2250069CA62 /* LaunchScreen.storyboard */; };
 		F3B5784B2160A5990069CA62 /* DTRootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5784A2160A5990069CA62 /* DTRootTabBarController.swift */; };
@@ -44,6 +45,7 @@
 		F372386D2160C85A003A2CB6 /* Assert.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assert.xcassets; sourceTree = "<group>"; };
 		F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QutuiColorExtension.swift; sourceTree = "<group>"; };
 		F37238792160CF62003A2CB6 /* ThirdBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdBridgeHeader.h; sourceTree = "<group>"; };
+		F3B2EEA02179B9440003E91E /* DTEnumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTEnumerations.swift; sourceTree = "<group>"; };
 		F3B578322160A2240069CA62 /* SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B578352160A2240069CA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B5783F2160A2250069CA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */,
 				F344DE9221787D2D000F064E /* DTFunctionController.swift */,
 				F338F55B2179740900257990 /* DTClosuresController.swift */,
+				F3B2EEA02179B9440003E91E /* DTEnumerations.swift */,
 			);
 			path = "基础使用";
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */,
 				F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */,
 				F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */,
+				F3B2EEA12179B9440003E91E /* DTEnumerations.swift in Sources */,
 				F3B5784B2160A5990069CA62 /* DTRootTabBarController.swift in Sources */,
 				F32FF6E42178249E0025A5DC /* DTControlFlowController.swift in Sources */,
 				F31A2E69216C5E9500575E65 /* DTStringDemoController.swift in Sources */,
