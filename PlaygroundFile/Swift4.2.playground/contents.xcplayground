@@ -10,5 +10,6 @@
         <page name='Closures'/>
         <page name='Enumerations'/>
         <page name='ObjectAndStruct'/>
+        <page name='Propertys'/>
     </pages>
 </playground>
