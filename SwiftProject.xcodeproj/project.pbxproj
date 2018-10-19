@@ -11,6 +11,7 @@
 		F31A2E69216C5E9500575E65 /* DTStringDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A2E68216C5E9500575E65 /* DTStringDemoController.swift */; };
 		F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */; };
 		F32FF6E42178249E0025A5DC /* DTControlFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */; };
+		F338F55C2179740900257990 /* DTClosuresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338F55B2179740900257990 /* DTClosuresController.swift */; };
 		F344DE9321787D2D000F064E /* DTFunctionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F344DE9221787D2D000F064E /* DTFunctionController.swift */; };
 		F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356A03A216EEE51004978D6 /* ColorConstant.swift */; };
 		F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F372386D2160C85A003A2CB6 /* Assert.xcassets */; };
@@ -37,6 +38,7 @@
 		F31A2E68216C5E9500575E65 /* DTStringDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTStringDemoController.swift; sourceTree = "<group>"; };
 		F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTGatherDemoController.swift; sourceTree = "<group>"; };
 		F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTControlFlowController.swift; sourceTree = "<group>"; };
+		F338F55B2179740900257990 /* DTClosuresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTClosuresController.swift; sourceTree = "<group>"; };
 		F344DE9221787D2D000F064E /* DTFunctionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTFunctionController.swift; sourceTree = "<group>"; };
 		F356A03A216EEE51004978D6 /* ColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
 		F372386D2160C85A003A2CB6 /* Assert.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assert.xcassets; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */,
 				F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */,
 				F344DE9221787D2D000F064E /* DTFunctionController.swift */,
+				F338F55B2179740900257990 /* DTClosuresController.swift */,
 			);
 			path = "基础使用";
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				F32FF6E42178249E0025A5DC /* DTControlFlowController.swift in Sources */,
 				F31A2E69216C5E9500575E65 /* DTStringDemoController.swift in Sources */,
 				F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */,
+				F338F55C2179740900257990 /* DTClosuresController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

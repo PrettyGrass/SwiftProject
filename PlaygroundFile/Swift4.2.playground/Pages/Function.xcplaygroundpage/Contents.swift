@@ -133,14 +133,17 @@ mathFunction2(mathFunc: mathFunction)
 //概念: 把函数定义在别的函数体中，称作 嵌套函数
 
 func functionA() {
-    func functionB(){
+    var value1 = 1
+    func functionB() {
+        value1 += 1
         print("functionB 调用")
     }
-    func functionC(){
+    func functionC() {
         print("functionC 调用")
     }
     functionB()
     functionC()
+    print(value1)
 }
 
 functionA()

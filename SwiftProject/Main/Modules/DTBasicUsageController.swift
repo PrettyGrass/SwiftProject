@@ -20,25 +20,25 @@ class DTBasicUsageController: DTBaseViewController {
 
     override func _demoCode() {
         let section1 = adapter!.addNewSection()!
+
+        let pushClosure = {(targetVC:UIViewController) -> Void in
+            self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
+        }
         
         AdapterCellUtil.creatCell(section: section1, text: "字符串和字符", needSeparator: true) { (cell,indexPath) in
-            let targetVC = DTStringDemoController()
-            self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
+            pushClosure(DTStringDemoController())
         }
         AdapterCellUtil.creatCell(section: section1, text: "集合类型", needSeparator: true) { (cell,indexPath) in
-            let targetVC = DTGatherDemoController()
-            self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
+            pushClosure(DTGatherDemoController())
         }
         AdapterCellUtil.creatCell(section: section1, text: "控制流", needSeparator: true) { (cell,indexPath) in
-            let targetVC = DTControlFlowController()
-            self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
+            pushClosure(DTControlFlowController())
         }
         AdapterCellUtil.creatCell(section: section1, text: "函数", needSeparator: true) { (cell,indexPath) in
-            let targetVC = DTFunctionController()
-            self.rt_navigationController?.pushViewController(targetVC, animated: true, complete: nil)
+            pushClosure(DTFunctionController())
         }
         AdapterCellUtil.creatCell(section: section1, text: "闭包", needSeparator: true) { (cell,indexPath) in
-            
+            pushClosure(DTClosuresController())
         }
         AdapterCellUtil.creatCell(section: section1, text: "枚举", needSeparator: true) { (cell,indexPath) in
             

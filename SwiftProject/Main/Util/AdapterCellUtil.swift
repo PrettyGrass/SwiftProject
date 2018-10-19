@@ -48,7 +48,7 @@ class AdapterCellUtil: NSObject {
         cell.cellIdentity = "DescCell";
 
         let maxWidth = kScreenWidth - 32.0
-        cell.cellHeight = desc.height(maxWidth, font: UIFont.systemFont(ofSize: 14), lineBreakMode: NSLineBreakMode.byWordWrapping);
+        cell.cellHeight = desc.height(maxWidth, font: UIFont.systemFont(ofSize: 14), lineBreakMode: NSLineBreakMode.byWordWrapping) + 10.0;
         return cell
     }
 
