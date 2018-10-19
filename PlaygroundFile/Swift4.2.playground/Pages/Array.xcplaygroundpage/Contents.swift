@@ -3,7 +3,11 @@
 import Foundation
 import UIKit
 
-var str = "Hello, playground"
+
+//Array 是结构体实现的,结构体是值传递,所以当赋值给新常量,变量,当修改这个变量时,是不会影响的
+
+Array
+
 
 var listArr = ["元素1","元素2","元素3"]
 listArr.remove(at: 0)
@@ -13,8 +17,12 @@ listArr.removeAll(keepingCapacity: true)
 
 var listArr1 = ["元素1","元素2","元素3"]
 listArr1.append(contentsOf: ["元素1","元素2"])
-var listArr2 = ["元素1","元素2","元素3"]
+var listArr2 = listArr1
+
 listArr2.removeLast()
+listArr2
+listArr1
+
 listArr2.append("新增")
 
 var students = ["Ben", "Ivy", "Jordell"]

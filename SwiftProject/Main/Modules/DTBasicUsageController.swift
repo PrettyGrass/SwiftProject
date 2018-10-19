@@ -44,7 +44,7 @@ class DTBasicUsageController: DTBaseViewController {
             pushClosure(DTEnumerations())
         }
         AdapterCellUtil.creatCell(section: section1, text: "类和结构体", needSeparator: true) { (cell,indexPath) in
-            
+            pushClosure(DTObjectAndStructController())
         }
         AdapterCellUtil.creatCell(section: section1, text: "属性", needSeparator: true) { (cell,indexPath) in
             

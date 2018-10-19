@@ -112,7 +112,6 @@ indirect enum EnumExpression1 {
     case addNum(EnumExpression,EnumExpression) //代表此属性可递归
 }
 
-
 let numValue1 = EnumExpression.num(3)
 let numValue2 = EnumExpression.num(23)
 let mathValue = EnumExpression.addNum(numValue1, numValue2)

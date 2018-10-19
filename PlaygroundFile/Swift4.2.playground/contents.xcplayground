@@ -9,5 +9,6 @@
         <page name='Function'/>
         <page name='Closures'/>
         <page name='Enumerations'/>
+        <page name='ObjectAndStruct'/>
     </pages>
 </playground>

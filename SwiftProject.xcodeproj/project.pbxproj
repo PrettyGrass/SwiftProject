@@ -30,6 +30,7 @@
 		F3EFBB3F2174322D00D27D5C /* DescCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EFBB3D2174322D00D27D5C /* DescCell.xib */; };
 		F3EFBB412174335B00D27D5C /* PGVerticalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB402174335B00D27D5C /* PGVerticalLabel.swift */; };
 		F3EFBB49217446DD00D27D5C /* AdapterCellUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */; };
+		F3F5EFCE2179D464008D6504 /* DTObjectAndStructController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EFCD2179D464008D6504 /* DTObjectAndStructController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		F3EFBB3D2174322D00D27D5C /* DescCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescCell.xib; sourceTree = "<group>"; };
 		F3EFBB402174335B00D27D5C /* PGVerticalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGVerticalLabel.swift; sourceTree = "<group>"; };
 		F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterCellUtil.swift; sourceTree = "<group>"; };
+		F3F5EFCD2179D464008D6504 /* DTObjectAndStructController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTObjectAndStructController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				F344DE9221787D2D000F064E /* DTFunctionController.swift */,
 				F338F55B2179740900257990 /* DTClosuresController.swift */,
 				F3B2EEA02179B9440003E91E /* DTEnumerations.swift */,
+				F3F5EFCD2179D464008D6504 /* DTObjectAndStructController.swift */,
 			);
 			path = "基础使用";
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				F3B5784B2160A5990069CA62 /* DTRootTabBarController.swift in Sources */,
 				F32FF6E42178249E0025A5DC /* DTControlFlowController.swift in Sources */,
 				F31A2E69216C5E9500575E65 /* DTStringDemoController.swift in Sources */,
+				F3F5EFCE2179D464008D6504 /* DTObjectAndStructController.swift in Sources */,
 				F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */,
 				F338F55C2179740900257990 /* DTClosuresController.swift in Sources */,
 			);
