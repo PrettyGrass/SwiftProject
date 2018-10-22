@@ -13,5 +13,6 @@
         <page name='Propertys'/>
         <page name='Method'/>
         <page name='Index'/>
+        <page name='Extends'/>
     </pages>
 </playground>

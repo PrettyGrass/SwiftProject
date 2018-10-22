@@ -58,7 +58,8 @@ class DTBasicUsageController: DTBaseViewController {
             
         }
         AdapterCellUtil.creatCell(section: section1, text: "继承", needSeparator: true) { (cell,indexPath) in
-            
+            pushClosure(DTExtendsController())
+
         }
         AdapterCellUtil.creatCell(section: section1, text: "初始化", needSeparator: true) { (cell,indexPath) in
             

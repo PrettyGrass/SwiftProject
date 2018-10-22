@@ -18,6 +18,7 @@
 		F356B774217D9EE1005AE45D /* DTIndexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356B773217D9EE1005AE45D /* DTIndexController.swift */; };
 		F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F372386D2160C85A003A2CB6 /* Assert.xcassets */; };
 		F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */; };
+		F3B29D77217DC32D000B8C35 /* DTExtendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B29D76217DC32D000B8C35 /* DTExtendsController.swift */; };
 		F3B2EEA12179B9440003E91E /* DTEnumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B2EEA02179B9440003E91E /* DTEnumerations.swift */; };
 		F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578352160A2240069CA62 /* AppDelegate.swift */; };
 		F3B578402160A2250069CA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B5783E2160A2250069CA62 /* LaunchScreen.storyboard */; };
@@ -51,6 +52,7 @@
 		F372386D2160C85A003A2CB6 /* Assert.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assert.xcassets; sourceTree = "<group>"; };
 		F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QutuiColorExtension.swift; sourceTree = "<group>"; };
 		F37238792160CF62003A2CB6 /* ThirdBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdBridgeHeader.h; sourceTree = "<group>"; };
+		F3B29D76217DC32D000B8C35 /* DTExtendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTExtendsController.swift; sourceTree = "<group>"; };
 		F3B2EEA02179B9440003E91E /* DTEnumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTEnumerations.swift; sourceTree = "<group>"; };
 		F3B578322160A2240069CA62 /* SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B578352160A2240069CA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				F3F5EFCF2179D911008D6504 /* DTPropertyController.swift */,
 				F356B771217D9A9E005AE45D /* DTMethodController.swift */,
 				F356B773217D9EE1005AE45D /* DTIndexController.swift */,
+				F3B29D76217DC32D000B8C35 /* DTExtendsController.swift */,
 			);
 			path = "基础使用";
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				F3F5EFD02179D911008D6504 /* DTPropertyController.swift in Sources */,
 				F3EFBB412174335B00D27D5C /* PGVerticalLabel.swift in Sources */,
 				F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */,
+				F3B29D77217DC32D000B8C35 /* DTExtendsController.swift in Sources */,
 				F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */,
 				F356B772217D9A9E005AE45D /* DTMethodController.swift in Sources */,
 				F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */,
