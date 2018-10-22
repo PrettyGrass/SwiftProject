@@ -12,5 +12,6 @@
         <page name='ObjectAndStruct'/>
         <page name='Propertys'/>
         <page name='Method'/>
+        <page name='Index'/>
     </pages>
 </playground>

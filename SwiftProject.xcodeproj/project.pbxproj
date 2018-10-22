@@ -15,6 +15,7 @@
 		F344DE9321787D2D000F064E /* DTFunctionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F344DE9221787D2D000F064E /* DTFunctionController.swift */; };
 		F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356A03A216EEE51004978D6 /* ColorConstant.swift */; };
 		F356B772217D9A9E005AE45D /* DTMethodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356B771217D9A9E005AE45D /* DTMethodController.swift */; };
+		F356B774217D9EE1005AE45D /* DTIndexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356B773217D9EE1005AE45D /* DTIndexController.swift */; };
 		F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F372386D2160C85A003A2CB6 /* Assert.xcassets */; };
 		F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */; };
 		F3B2EEA12179B9440003E91E /* DTEnumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B2EEA02179B9440003E91E /* DTEnumerations.swift */; };
@@ -46,6 +47,7 @@
 		F344DE9221787D2D000F064E /* DTFunctionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTFunctionController.swift; sourceTree = "<group>"; };
 		F356A03A216EEE51004978D6 /* ColorConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
 		F356B771217D9A9E005AE45D /* DTMethodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTMethodController.swift; sourceTree = "<group>"; };
+		F356B773217D9EE1005AE45D /* DTIndexController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTIndexController.swift; sourceTree = "<group>"; };
 		F372386D2160C85A003A2CB6 /* Assert.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assert.xcassets; sourceTree = "<group>"; };
 		F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QutuiColorExtension.swift; sourceTree = "<group>"; };
 		F37238792160CF62003A2CB6 /* ThirdBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdBridgeHeader.h; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				F3F5EFCD2179D464008D6504 /* DTObjectAndStructController.swift */,
 				F3F5EFCF2179D911008D6504 /* DTPropertyController.swift */,
 				F356B771217D9A9E005AE45D /* DTMethodController.swift */,
+				F356B773217D9EE1005AE45D /* DTIndexController.swift */,
 			);
 			path = "基础使用";
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				F3F5EFCE2179D464008D6504 /* DTObjectAndStructController.swift in Sources */,
 				F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */,
 				F338F55C2179740900257990 /* DTClosuresController.swift in Sources */,
+				F356B774217D9EE1005AE45D /* DTIndexController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

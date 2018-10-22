@@ -25,7 +25,6 @@ class DTMethodController: DTBaseViewController {
        
         }
         AdapterCellUtil.descCell(section: section, desc: """
- 内容:
     * 实例方法
     * 类型方法
  
@@ -54,7 +53,6 @@ class DTMethodController: DTBaseViewController {
             //
             let obj2 = B(value1: 1, value2: 2)
             print("结构体:",obj1.countAdd(count1: 1, count2: 2))
-            
             
             //在枚举里定义对象方法
             enum C :Int {
