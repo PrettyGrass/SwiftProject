@@ -217,9 +217,7 @@ class DTPropertyController: DTBaseViewController {
 
 """)
         
-        
         AdapterCellUtil.creatCell(section: section, text: "个人总结:", needSeparator: false) { (cell, index) in
-
             
         }
         

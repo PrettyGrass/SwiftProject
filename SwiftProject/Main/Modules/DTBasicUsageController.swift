@@ -51,7 +51,7 @@ class DTBasicUsageController: DTBaseViewController {
 
         }
         AdapterCellUtil.creatCell(section: section1, text: "方法", needSeparator: true) { (cell,indexPath) in
-            
+            pushClosure(DTMethodController())
         }
         AdapterCellUtil.creatCell(section: section1, text: "下标", needSeparator: true) { (cell,indexPath) in
             
