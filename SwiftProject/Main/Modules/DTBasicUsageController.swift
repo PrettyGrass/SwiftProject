@@ -67,9 +67,6 @@ class DTBasicUsageController: DTBaseViewController {
         AdapterCellUtil.creatCell(section: section1, text: "反初始化", needSeparator: true) { (cell,indexPath) in
             
         }
-        AdapterCellUtil.creatCell(section: section1, text: "自动引用计数", needSeparator: true) { (cell,indexPath) in
-            
-        }
         AdapterCellUtil.creatCell(section: section1, text: "可选链", needSeparator: true) { (cell,indexPath) in
             
         }
@@ -89,6 +86,9 @@ class DTBasicUsageController: DTBaseViewController {
             
         }
         AdapterCellUtil.creatCell(section: section1, text: "泛型", needSeparator: true) { (cell,indexPath) in
+            
+        }
+        AdapterCellUtil.creatCell(section: section1, text: "自动引用计数", needSeparator: true) { (cell,indexPath) in
             
         }
         AdapterCellUtil.creatCell(section: section1, text: "内存安全性", needSeparator: true) { (cell,indexPath) in

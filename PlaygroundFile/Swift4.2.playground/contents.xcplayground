@@ -14,5 +14,6 @@
         <page name='Method'/>
         <page name='Index'/>
         <page name='Extends'/>
+        <page name='Init'/>
     </pages>
 </playground>
