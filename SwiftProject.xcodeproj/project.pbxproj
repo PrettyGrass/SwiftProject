@@ -31,7 +31,7 @@
 		F3EFBB412174335B00D27D5C /* PGVerticalLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB402174335B00D27D5C /* PGVerticalLabel.swift */; };
 		F3EFBB49217446DD00D27D5C /* AdapterCellUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */; };
 		F3F5EFCE2179D464008D6504 /* DTObjectAndStructController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EFCD2179D464008D6504 /* DTObjectAndStructController.swift */; };
-		F3F5EFD02179D911008D6504 /* PropertyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EFCF2179D911008D6504 /* PropertyController.swift */; };
+		F3F5EFD02179D911008D6504 /* DTPropertyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EFCF2179D911008D6504 /* DTPropertyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +64,7 @@
 		F3EFBB402174335B00D27D5C /* PGVerticalLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGVerticalLabel.swift; sourceTree = "<group>"; };
 		F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterCellUtil.swift; sourceTree = "<group>"; };
 		F3F5EFCD2179D464008D6504 /* DTObjectAndStructController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTObjectAndStructController.swift; sourceTree = "<group>"; };
-		F3F5EFCF2179D911008D6504 /* PropertyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyController.swift; sourceTree = "<group>"; };
+		F3F5EFCF2179D911008D6504 /* DTPropertyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTPropertyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				F338F55B2179740900257990 /* DTClosuresController.swift */,
 				F3B2EEA02179B9440003E91E /* DTEnumerations.swift */,
 				F3F5EFCD2179D464008D6504 /* DTObjectAndStructController.swift */,
-				F3F5EFCF2179D911008D6504 /* PropertyController.swift */,
+				F3F5EFCF2179D911008D6504 /* DTPropertyController.swift */,
 			);
 			path = "基础使用";
 			sourceTree = "<group>";
@@ -363,7 +363,7 @@
 				F344DE9321787D2D000F064E /* DTFunctionController.swift in Sources */,
 				F3EFBB49217446DD00D27D5C /* AdapterCellUtil.swift in Sources */,
 				F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */,
-				F3F5EFD02179D911008D6504 /* PropertyController.swift in Sources */,
+				F3F5EFD02179D911008D6504 /* DTPropertyController.swift in Sources */,
 				F3EFBB412174335B00D27D5C /* PGVerticalLabel.swift in Sources */,
 				F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */,
 				F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */,
