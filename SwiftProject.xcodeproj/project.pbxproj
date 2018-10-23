@@ -29,6 +29,7 @@
 		F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578532160A8FB0069CA62 /* DTAdvancedController.swift */; };
 		F3B578562160A9730069CA62 /* DTDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578552160A9730069CA62 /* DTDocumentViewController.swift */; };
 		F3B578582160AC230069CA62 /* DTRootNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578572160AC230069CA62 /* DTRootNavgationController.swift */; };
+		F3C0E445217F39F500934215 /* DTDeInitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0E444217F39F500934215 /* DTDeInitController.swift */; };
 		F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB39217429AD00D27D5C /* Const.swift */; };
 		F3EFBB3E2174322D00D27D5C /* DescCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB3C2174322D00D27D5C /* DescCell.swift */; };
 		F3EFBB3F2174322D00D27D5C /* DescCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EFBB3D2174322D00D27D5C /* DescCell.xib */; };
@@ -66,6 +67,7 @@
 		F3B578532160A8FB0069CA62 /* DTAdvancedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTAdvancedController.swift; sourceTree = "<group>"; };
 		F3B578552160A9730069CA62 /* DTDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTDocumentViewController.swift; sourceTree = "<group>"; };
 		F3B578572160AC230069CA62 /* DTRootNavgationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTRootNavgationController.swift; sourceTree = "<group>"; };
+		F3C0E444217F39F500934215 /* DTDeInitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTDeInitController.swift; sourceTree = "<group>"; };
 		F3EFBB39217429AD00D27D5C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		F3EFBB3C2174322D00D27D5C /* DescCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescCell.swift; sourceTree = "<group>"; };
 		F3EFBB3D2174322D00D27D5C /* DescCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescCell.xib; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				F356B773217D9EE1005AE45D /* DTIndexController.swift */,
 				F3B29D76217DC32D000B8C35 /* DTExtendsController.swift */,
 				F3B3B0F7217DD86300D2C91C /* DTInitController.swift */,
+				F3C0E444217F39F500934215 /* DTDeInitController.swift */,
 			);
 			path = "基础使用";
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				F3EFBB412174335B00D27D5C /* PGVerticalLabel.swift in Sources */,
 				F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */,
 				F3B29D77217DC32D000B8C35 /* DTExtendsController.swift in Sources */,
+				F3C0E445217F39F500934215 /* DTDeInitController.swift in Sources */,
 				F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */,
 				F356B772217D9A9E005AE45D /* DTMethodController.swift in Sources */,
 				F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */,

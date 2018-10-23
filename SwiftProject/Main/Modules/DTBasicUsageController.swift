@@ -64,8 +64,8 @@ class DTBasicUsageController: DTBaseViewController {
         AdapterCellUtil.creatCell(section: section1, text: "初始化", needSeparator: true) { (cell,indexPath) in
             pushClosure(DTInitController())
         }
-        AdapterCellUtil.creatCell(section: section1, text: "反初始化", needSeparator: true) { (cell,indexPath) in
-            
+        AdapterCellUtil.creatCell(section: section1, text: "反初始化", needSeparator: true) { (cell,indexPath) in            
+            pushClosure(DTDeInitController())
         }
         AdapterCellUtil.creatCell(section: section1, text: "可选链", needSeparator: true) { (cell,indexPath) in
             
