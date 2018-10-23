@@ -15,5 +15,6 @@
         <page name='Index'/>
         <page name='Extends'/>
         <page name='Init'/>
+        <page name='deInit'/>
     </pages>
 </playground>
