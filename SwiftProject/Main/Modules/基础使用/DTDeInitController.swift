@@ -11,6 +11,7 @@ import UIKit
 class DTDeInitController: DTBaseViewController {
 
     override func viewDidLoad() {
+ 
         super.viewDidLoad()
         
         title = "析构过程"

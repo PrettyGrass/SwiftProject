@@ -15,7 +15,7 @@ class DTBasicUsageController: DTBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "基础"
-        super.configDemoTableView()
+        configDemoTableView()
     }
 
     override func _demoCode() {

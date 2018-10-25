@@ -22,16 +22,18 @@ class DTRootTabBarController: UITabBarController {
         let basicUsageVC = DTBasicUsageController()
         let advancedVC = DTAdvancedController()
         let documentVC = DTDocumentController()
-        
+        let uiDemoVC = DTUIDemoController()
+
         let basicUsageNav = RTContainerNavigationController.init(rootViewController: basicUsageVC)
         let advancedNav = RTContainerNavigationController.init(rootViewController: advancedVC)
         let documentNav = RTContainerNavigationController.init(rootViewController: documentVC)
+        let uiDemoNav = RTContainerNavigationController.init(rootViewController: uiDemoVC)
 
-        self.viewControllers = [basicUsageNav,advancedNav,documentNav];
+        self.viewControllers = [basicUsageNav,advancedNav,documentNav,uiDemoNav];
 
-        let titles = ["基础","进阶","文档"]
-        let norImages = ["icon_tab_1","icon_tab_2","icon_tab_3"]
-        let selImage = ["icon_tab_1_s","icon_tab_2_s","icon_tab_3_s"]
+        let titles = ["基础","进阶","文档","示例"]
+        let norImages = ["icon_tab_1","icon_tab_2","icon_tab_3","icon_tab_3"]
+        let selImage = ["icon_tab_1_s","icon_tab_2_s","icon_tab_3_s","icon_tab_3_s"]
         
         for (index,vc) in (self.viewControllers?.enumerated())! {
             

@@ -35,7 +35,7 @@ enum Direction1 {
     case top,bottom,topLeft,bottomRight
 }
 let value2 = Direction1.topLeft
-//当类型被腿断出来了之后 可以省略类型
+//当类型被推断出来了之后 可以省略类型
 
 //使用 Switch 语句匹配枚举值
 switch value2 {
@@ -86,6 +86,7 @@ enum Planet: Int {
 
 enum CompassPoint: String {
     case north, south, east, west
+    case zidingy = "zzzzzzzzzzzzz"
 }
 
 let earthsOrder = Planet.earth.rawValue
@@ -93,6 +94,9 @@ let earthsOrder = Planet.earth.rawValue
 
 let sunsetDirection = CompassPoint.west.rawValue
 // sunsetDirection 值为 "west"
+
+let sunsetDirection1 = CompassPoint.zidingy.rawValue
+print(sunsetDirection1)
 
 //使用原始值初始化枚举实例
 //如果在定义枚举类型的时候使用了原始值，那么将会自动获得一个初始化方法，这个方法接收一个叫做 rawValue 的参数，参数类型即为原始值类型，返回值则是枚举成员或 nil。

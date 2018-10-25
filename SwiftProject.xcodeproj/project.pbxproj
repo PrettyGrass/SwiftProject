@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F29FB0E7D1AB69CFFD8B5DB /* Pods_SwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8850CD8866F37C666FA89B /* Pods_SwiftProject.framework */; };
 		F31A2E69216C5E9500575E65 /* DTStringDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A2E68216C5E9500575E65 /* DTStringDemoController.swift */; };
 		F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */; };
 		F32FF6E42178249E0025A5DC /* DTControlFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */; };
@@ -30,6 +29,8 @@
 		F3B578562160A9730069CA62 /* DTDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578552160A9730069CA62 /* DTDocumentViewController.swift */; };
 		F3B578582160AC230069CA62 /* DTRootNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578572160AC230069CA62 /* DTRootNavgationController.swift */; };
 		F3C0E445217F39F500934215 /* DTDeInitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0E444217F39F500934215 /* DTDeInitController.swift */; };
+		F3C914CF2180410600657025 /* DTJXCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C914CE2180410600657025 /* DTJXCategoryViewController.swift */; };
+		F3C914D1218066FC00657025 /* DTUIDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C914D0218066FC00657025 /* DTUIDemoController.swift */; };
 		F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB39217429AD00D27D5C /* Const.swift */; };
 		F3EFBB3E2174322D00D27D5C /* DescCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB3C2174322D00D27D5C /* DescCell.swift */; };
 		F3EFBB3F2174322D00D27D5C /* DescCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EFBB3D2174322D00D27D5C /* DescCell.xib */; };
@@ -37,12 +38,13 @@
 		F3EFBB49217446DD00D27D5C /* AdapterCellUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */; };
 		F3F5EFCE2179D464008D6504 /* DTObjectAndStructController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EFCD2179D464008D6504 /* DTObjectAndStructController.swift */; };
 		F3F5EFD02179D911008D6504 /* DTPropertyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5EFCF2179D911008D6504 /* DTPropertyController.swift */; };
+		F4C6C2ED5170AADAD7DE1721 /* Pods_SwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58B8512EF7F21365546F7D4 /* Pods_SwiftProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		057A2B4102DB8BECFE258CEB /* Pods-SwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject.release.xcconfig"; sourceTree = "<group>"; };
-		DF8850CD8866F37C666FA89B /* Pods_SwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F19FB5AD265CCFBD6F2BE42D /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
+		5470A2D54CABD3A8848FE97C /* Pods-SwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+		7B48C50BD24EEFCA6F348EB1 /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A58B8512EF7F21365546F7D4 /* Pods_SwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31A2E68216C5E9500575E65 /* DTStringDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTStringDemoController.swift; sourceTree = "<group>"; };
 		F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTGatherDemoController.swift; sourceTree = "<group>"; };
 		F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTControlFlowController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,8 @@
 		F3B578552160A9730069CA62 /* DTDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTDocumentViewController.swift; sourceTree = "<group>"; };
 		F3B578572160AC230069CA62 /* DTRootNavgationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTRootNavgationController.swift; sourceTree = "<group>"; };
 		F3C0E444217F39F500934215 /* DTDeInitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTDeInitController.swift; sourceTree = "<group>"; };
+		F3C914CE2180410600657025 /* DTJXCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTJXCategoryViewController.swift; sourceTree = "<group>"; };
+		F3C914D0218066FC00657025 /* DTUIDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTUIDemoController.swift; sourceTree = "<group>"; };
 		F3EFBB39217429AD00D27D5C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		F3EFBB3C2174322D00D27D5C /* DescCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescCell.swift; sourceTree = "<group>"; };
 		F3EFBB3D2174322D00D27D5C /* DescCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescCell.xib; sourceTree = "<group>"; };
@@ -82,26 +86,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F29FB0E7D1AB69CFFD8B5DB /* Pods_SwiftProject.framework in Frameworks */,
+				F4C6C2ED5170AADAD7DE1721 /* Pods_SwiftProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27988E564F4AB3B2762DB0BF /* Pods */ = {
+		CC87ACEAD41FC0DC4906B707 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F19FB5AD265CCFBD6F2BE42D /* Pods-SwiftProject.debug.xcconfig */,
-				057A2B4102DB8BECFE258CEB /* Pods-SwiftProject.release.xcconfig */,
+				7B48C50BD24EEFCA6F348EB1 /* Pods-SwiftProject.debug.xcconfig */,
+				5470A2D54CABD3A8848FE97C /* Pods-SwiftProject.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		9E160865FD085BDAB032E370 /* Frameworks */ = {
+		D513C915F7A6663DA21142D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DF8850CD8866F37C666FA89B /* Pods_SwiftProject.framework */,
+				A58B8512EF7F21365546F7D4 /* Pods_SwiftProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,8 +152,8 @@
 			children = (
 				F3B578342160A2240069CA62 /* SwiftProject */,
 				F3B578332160A2240069CA62 /* Products */,
-				27988E564F4AB3B2762DB0BF /* Pods */,
-				9E160865FD085BDAB032E370 /* Frameworks */,
+				CC87ACEAD41FC0DC4906B707 /* Pods */,
+				D513C915F7A6663DA21142D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,11 +211,13 @@
 		F3B5784C2160A7640069CA62 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F3C914CD218040B600657025 /* UI组件Demo */,
 				F3EFBB3B2174320D00D27D5C /* View */,
 				F31A2E67216C5E5400575E65 /* 基础使用 */,
 				F3B578512160A8C70069CA62 /* DTBasicUsageController.swift */,
 				F3B578532160A8FB0069CA62 /* DTAdvancedController.swift */,
 				F3B578552160A9730069CA62 /* DTDocumentViewController.swift */,
+				F3C914D0218066FC00657025 /* DTUIDemoController.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -230,6 +237,14 @@
 				F3EFBB39217429AD00D27D5C /* Const.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		F3C914CD218040B600657025 /* UI组件Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F3C914CE2180410600657025 /* DTJXCategoryViewController.swift */,
+			);
+			path = "UI组件Demo";
 			sourceTree = "<group>";
 		};
 		F3EFBB3B2174320D00D27D5C /* View */ = {
@@ -257,11 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3B578442160A2250069CA62 /* Build configuration list for PBXNativeTarget "SwiftProject" */;
 			buildPhases = (
-				0FB51BAC0C6EE958B09E4BFC /* [CP] Check Pods Manifest.lock */,
+				18FEEBF7EB3438022174EA95 /* [CP] Check Pods Manifest.lock */,
 				F3B5782E2160A2240069CA62 /* Sources */,
 				F3B5782F2160A2240069CA62 /* Frameworks */,
 				F3B578302160A2240069CA62 /* Resources */,
-				7CEF382D7DF3E132D9C35A0A /* [CP] Embed Pods Frameworks */,
+				4FC8129E1ABB92223CF7E556 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,16 +334,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FB51BAC0C6EE958B09E4BFC /* [CP] Check Pods Manifest.lock */ = {
+		18FEEBF7EB3438022174EA95 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwiftProject-checkManifestLockResult.txt",
 			);
@@ -337,13 +356,16 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7CEF382D7DF3E132D9C35A0A /* [CP] Embed Pods Frameworks */ = {
+		4FC8129E1ABB92223CF7E556 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JXCategoryView/JXCategoryView.framework",
 				"${BUILT_PRODUCTS_DIR}/LLTableViewAdapter/LLTableViewAdapter.framework",
 				"${BUILT_PRODUCTS_DIR}/PGSwiftExtensions/PGSwiftExtensions.framework",
 				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
@@ -351,7 +373,10 @@
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXCategoryView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLTableViewAdapter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGSwiftExtensions.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
@@ -360,7 +385,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -376,6 +401,7 @@
 				F3B578502160A8040069CA62 /* DTBaseViewController.swift in Sources */,
 				F3B578522160A8C70069CA62 /* DTBasicUsageController.swift in Sources */,
 				F344DE9321787D2D000F064E /* DTFunctionController.swift in Sources */,
+				F3C914D1218066FC00657025 /* DTUIDemoController.swift in Sources */,
 				F3EFBB49217446DD00D27D5C /* AdapterCellUtil.swift in Sources */,
 				F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */,
 				F3F5EFD02179D911008D6504 /* DTPropertyController.swift in Sources */,
@@ -395,6 +421,7 @@
 				F3F5EFCE2179D464008D6504 /* DTObjectAndStructController.swift in Sources */,
 				F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */,
 				F338F55C2179740900257990 /* DTClosuresController.swift in Sources */,
+				F3C914CF2180410600657025 /* DTJXCategoryViewController.swift in Sources */,
 				F356B774217D9EE1005AE45D /* DTIndexController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,7 +558,7 @@
 		};
 		F3B578452160A2250069CA62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F19FB5AD265CCFBD6F2BE42D /* Pods-SwiftProject.debug.xcconfig */;
+			baseConfigurationReference = 7B48C50BD24EEFCA6F348EB1 /* Pods-SwiftProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -553,7 +580,7 @@
 		};
 		F3B578462160A2250069CA62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 057A2B4102DB8BECFE258CEB /* Pods-SwiftProject.release.xcconfig */;
+			baseConfigurationReference = 5470A2D54CABD3A8848FE97C /* Pods-SwiftProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

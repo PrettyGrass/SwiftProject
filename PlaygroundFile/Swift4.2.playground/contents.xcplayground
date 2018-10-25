@@ -17,5 +17,6 @@
         <page name='Init'/>
         <page name='DeInit'/>
         <page name='Optional'/>
+        <page name='Extension'/>
     </pages>
 </playground>

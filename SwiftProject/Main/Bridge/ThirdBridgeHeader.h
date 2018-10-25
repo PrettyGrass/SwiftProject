@@ -11,5 +11,6 @@
 
 #import "LLTableViewAdapter/LLAdapter.h"
 #import "RTRootNavigationController/RTRootNavigationController.h"
+#import "JXCategoryView/JXCategoryView.h"
 
 #endif /* ThirdBridgeHeader_h */
