@@ -18,5 +18,7 @@
         <page name='DeInit'/>
         <page name='Optional'/>
         <page name='Extension'/>
+        <page name='ClassConvert'/>
+        <page name='Protocol'/>
     </pages>
 </playground>
