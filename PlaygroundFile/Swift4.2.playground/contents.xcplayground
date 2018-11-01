@@ -20,5 +20,6 @@
         <page name='Extension'/>
         <page name='ClassConvert'/>
         <page name='Protocol'/>
+        <page name='Genericity_'/>
     </pages>
 </playground>

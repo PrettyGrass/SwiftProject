@@ -77,7 +77,6 @@ case 1:
     print("不用break")
 case 2,3,4,5:
     print("穿透value")
-    
 case 6..<12:
     print("匹配区间 6 ..11 不包括12")
     

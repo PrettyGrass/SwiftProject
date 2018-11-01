@@ -19,6 +19,7 @@
 		F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */; };
 		F3B29D77217DC32D000B8C35 /* DTExtendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B29D76217DC32D000B8C35 /* DTExtendsController.swift */; };
 		F3B2EEA12179B9440003E91E /* DTEnumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B2EEA02179B9440003E91E /* DTEnumerations.swift */; };
+		F3B3A51E21899333003D8CEB /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B3A51D21899333003D8CEB /* Test1.m */; };
 		F3B3B0F8217DD86300D2C91C /* DTInitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3B0F7217DD86300D2C91C /* DTInitController.swift */; };
 		F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578352160A2240069CA62 /* AppDelegate.swift */; };
 		F3B578402160A2250069CA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B5783E2160A2250069CA62 /* LaunchScreen.storyboard */; };
@@ -58,6 +59,8 @@
 		F37238792160CF62003A2CB6 /* ThirdBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdBridgeHeader.h; sourceTree = "<group>"; };
 		F3B29D76217DC32D000B8C35 /* DTExtendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTExtendsController.swift; sourceTree = "<group>"; };
 		F3B2EEA02179B9440003E91E /* DTEnumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTEnumerations.swift; sourceTree = "<group>"; };
+		F3B3A51C21899333003D8CEB /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		F3B3A51D21899333003D8CEB /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		F3B3B0F7217DD86300D2C91C /* DTInitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTInitController.swift; sourceTree = "<group>"; };
 		F3B578322160A2240069CA62 /* SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B578352160A2240069CA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,7 +102,6 @@
 				7B48C50BD24EEFCA6F348EB1 /* Pods-SwiftProject.debug.xcconfig */,
 				5470A2D54CABD3A8848FE97C /* Pods-SwiftProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -261,6 +263,8 @@
 			isa = PBXGroup;
 			children = (
 				F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */,
+				F3B3A51C21899333003D8CEB /* Test1.h */,
+				F3B3A51D21899333003D8CEB /* Test1.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -411,6 +415,7 @@
 				F3C0E445217F39F500934215 /* DTDeInitController.swift in Sources */,
 				F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */,
 				F356B772217D9A9E005AE45D /* DTMethodController.swift in Sources */,
+				F3B3A51E21899333003D8CEB /* Test1.m in Sources */,
 				F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */,
 				F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */,
 				F3B3B0F8217DD86300D2C91C /* DTInitController.swift in Sources */,
