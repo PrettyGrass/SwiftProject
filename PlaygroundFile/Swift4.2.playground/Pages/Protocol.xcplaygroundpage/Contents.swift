@@ -19,8 +19,6 @@ class B: A,SomeProtocol {
     
 }
 
-
-
 //- 属性的要求
 
 //协议可以要求提供 特定的 实例属性,或者类属性, 不指定是计算型属性还是存储型属性,协议还指定当前属性是否是可读,可写的
@@ -95,8 +93,6 @@ cObj.logPa()
 
 //声明采纳协议
 //如果一个类已经遵循了所有的需求,但是没有声明这个协议,这时候可以通过空的拓展表示已经遵循过了协议
-
-
 protocol ProtocolC {
     func logPC() -> Void;
 }
@@ -181,7 +177,6 @@ for obj in manList {
 
 @objc protocol dataSource {
   @objc optional func numOfCount() -> Int;
-
 }
 
 

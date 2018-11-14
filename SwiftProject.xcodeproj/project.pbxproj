@@ -17,12 +17,12 @@
 		F356B774217D9EE1005AE45D /* DTIndexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F356B773217D9EE1005AE45D /* DTIndexController.swift */; };
 		F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F372386D2160C85A003A2CB6 /* Assert.xcassets */; };
 		F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */; };
+		F37BED782192E9EB00C321B5 /* DTStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37BED772192E9EB00C321B5 /* DTStackViewController.swift */; };
+		F37BED7E2193DF7C00C321B5 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = F37BED7D2193DF7C00C321B5 /* View.xib */; };
 		F3B29D77217DC32D000B8C35 /* DTExtendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B29D76217DC32D000B8C35 /* DTExtendsController.swift */; };
 		F3B2EEA12179B9440003E91E /* DTEnumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B2EEA02179B9440003E91E /* DTEnumerations.swift */; };
-		F3B3A51E21899333003D8CEB /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B3A51D21899333003D8CEB /* Test1.m */; };
 		F3B3B0F8217DD86300D2C91C /* DTInitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3B0F7217DD86300D2C91C /* DTInitController.swift */; };
 		F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578352160A2240069CA62 /* AppDelegate.swift */; };
-		F3B578402160A2250069CA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B5783E2160A2250069CA62 /* LaunchScreen.storyboard */; };
 		F3B5784B2160A5990069CA62 /* DTRootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5784A2160A5990069CA62 /* DTRootTabBarController.swift */; };
 		F3B578502160A8040069CA62 /* DTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5784F2160A8040069CA62 /* DTBaseViewController.swift */; };
 		F3B578522160A8C70069CA62 /* DTBasicUsageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B578512160A8C70069CA62 /* DTBasicUsageController.swift */; };
@@ -32,6 +32,7 @@
 		F3C0E445217F39F500934215 /* DTDeInitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0E444217F39F500934215 /* DTDeInitController.swift */; };
 		F3C914CF2180410600657025 /* DTJXCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C914CE2180410600657025 /* DTJXCategoryViewController.swift */; };
 		F3C914D1218066FC00657025 /* DTUIDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C914D0218066FC00657025 /* DTUIDemoController.swift */; };
+		F3CCC8622194117F00499D8D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3CCC8642194117F00499D8D /* Localizable.strings */; };
 		F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB39217429AD00D27D5C /* Const.swift */; };
 		F3EFBB3E2174322D00D27D5C /* DescCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EFBB3C2174322D00D27D5C /* DescCell.swift */; };
 		F3EFBB3F2174322D00D27D5C /* DescCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EFBB3D2174322D00D27D5C /* DescCell.xib */; };
@@ -57,14 +58,13 @@
 		F372386D2160C85A003A2CB6 /* Assert.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assert.xcassets; sourceTree = "<group>"; };
 		F37238702160CC62003A2CB6 /* QutuiColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QutuiColorExtension.swift; sourceTree = "<group>"; };
 		F37238792160CF62003A2CB6 /* ThirdBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdBridgeHeader.h; sourceTree = "<group>"; };
+		F37BED772192E9EB00C321B5 /* DTStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTStackViewController.swift; sourceTree = "<group>"; };
+		F37BED7D2193DF7C00C321B5 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		F3B29D76217DC32D000B8C35 /* DTExtendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTExtendsController.swift; sourceTree = "<group>"; };
 		F3B2EEA02179B9440003E91E /* DTEnumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTEnumerations.swift; sourceTree = "<group>"; };
-		F3B3A51C21899333003D8CEB /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
-		F3B3A51D21899333003D8CEB /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		F3B3B0F7217DD86300D2C91C /* DTInitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTInitController.swift; sourceTree = "<group>"; };
 		F3B578322160A2240069CA62 /* SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B578352160A2240069CA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3B5783F2160A2250069CA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3B578412160A2250069CA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3B5784A2160A5990069CA62 /* DTRootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTRootTabBarController.swift; sourceTree = "<group>"; };
 		F3B5784F2160A8040069CA62 /* DTBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTBaseViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +75,9 @@
 		F3C0E444217F39F500934215 /* DTDeInitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTDeInitController.swift; sourceTree = "<group>"; };
 		F3C914CE2180410600657025 /* DTJXCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTJXCategoryViewController.swift; sourceTree = "<group>"; };
 		F3C914D0218066FC00657025 /* DTUIDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTUIDemoController.swift; sourceTree = "<group>"; };
+		F3CCC8632194117F00499D8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F3CCC8652194118C00499D8D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F3CCC8662194119100499D8D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F3EFBB39217429AD00D27D5C /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		F3EFBB3C2174322D00D27D5C /* DescCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescCell.swift; sourceTree = "<group>"; };
 		F3EFBB3D2174322D00D27D5C /* DescCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescCell.xib; sourceTree = "<group>"; };
@@ -149,6 +152,15 @@
 			path = Bridge;
 			sourceTree = "<group>";
 		};
+		F37BED762192E9C600C321B5 /* 进阶使用 */ = {
+			isa = PBXGroup;
+			children = (
+				F37BED772192E9EB00C321B5 /* DTStackViewController.swift */,
+				F37BED7D2193DF7C00C321B5 /* View.xib */,
+			);
+			path = "进阶使用";
+			sourceTree = "<group>";
+		};
 		F3B578292160A2240069CA62 = {
 			isa = PBXGroup;
 			children = (
@@ -181,8 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				F3B578412160A2250069CA62 /* Info.plist */,
-				F3B5783E2160A2250069CA62 /* LaunchScreen.storyboard */,
 				F372386D2160C85A003A2CB6 /* Assert.xcassets */,
+				F3CCC8642194117F00499D8D /* Localizable.strings */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -213,6 +225,7 @@
 		F3B5784C2160A7640069CA62 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F37BED762192E9C600C321B5 /* 进阶使用 */,
 				F3C914CD218040B600657025 /* UI组件Demo */,
 				F3EFBB3B2174320D00D27D5C /* View */,
 				F31A2E67216C5E5400575E65 /* 基础使用 */,
@@ -263,8 +276,6 @@
 			isa = PBXGroup;
 			children = (
 				F3EFBB48217446DD00D27D5C /* AdapterCellUtil.swift */,
-				F3B3A51C21899333003D8CEB /* Test1.h */,
-				F3B3A51D21899333003D8CEB /* Test1.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -312,7 +323,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				"zh-Hans",
+				it,
 			);
 			mainGroup = F3B578292160A2240069CA62;
 			productRefGroup = F3B578332160A2240069CA62 /* Products */;
@@ -329,7 +341,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B578402160A2250069CA62 /* LaunchScreen.storyboard in Resources */,
+				F37BED7E2193DF7C00C321B5 /* View.xib in Resources */,
+				F3CCC8622194117F00499D8D /* Localizable.strings in Resources */,
 				F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */,
 				F3EFBB3F2174322D00D27D5C /* DescCell.xib in Resources */,
 			);
@@ -343,15 +356,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwiftProject-checkManifestLockResult.txt",
 			);
@@ -365,8 +374,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JXCategoryView/JXCategoryView.framework",
@@ -377,8 +384,6 @@
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXCategoryView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLTableViewAdapter.framework",
@@ -407,6 +412,7 @@
 				F344DE9321787D2D000F064E /* DTFunctionController.swift in Sources */,
 				F3C914D1218066FC00657025 /* DTUIDemoController.swift in Sources */,
 				F3EFBB49217446DD00D27D5C /* AdapterCellUtil.swift in Sources */,
+				F37BED782192E9EB00C321B5 /* DTStackViewController.swift in Sources */,
 				F356A03B216EEE51004978D6 /* ColorConstant.swift in Sources */,
 				F3F5EFD02179D911008D6504 /* DTPropertyController.swift in Sources */,
 				F3EFBB412174335B00D27D5C /* PGVerticalLabel.swift in Sources */,
@@ -415,7 +421,6 @@
 				F3C0E445217F39F500934215 /* DTDeInitController.swift in Sources */,
 				F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */,
 				F356B772217D9A9E005AE45D /* DTMethodController.swift in Sources */,
-				F3B3A51E21899333003D8CEB /* Test1.m in Sources */,
 				F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */,
 				F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */,
 				F3B3B0F8217DD86300D2C91C /* DTInitController.swift in Sources */,
@@ -434,12 +439,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3B5783E2160A2250069CA62 /* LaunchScreen.storyboard */ = {
+		F3CCC8642194117F00499D8D /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3B5783F2160A2250069CA62 /* Base */,
+				F3CCC8632194117F00499D8D /* en */,
+				F3CCC8652194118C00499D8D /* zh-Hans */,
+				F3CCC8662194119100499D8D /* it */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -449,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -496,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -510,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -551,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

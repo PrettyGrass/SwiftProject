@@ -91,7 +91,7 @@ struct Pet {
         }
         set(newHeight) { //set可选 可以间接设置其他属性或变量的值,
             //do..
-            jumpHeight = newHeight
+           // jumpHeight = newHeight
         }
     }
 }
@@ -108,7 +108,7 @@ struct Pet1 {
             return height
         }
         set { // set默认一个名称 newValue
-            jumpHeight = newValue
+           // jumpHeight = newValue 循环
         }
     }
 }

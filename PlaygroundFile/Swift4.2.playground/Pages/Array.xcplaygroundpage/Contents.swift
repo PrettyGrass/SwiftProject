@@ -6,9 +6,6 @@ import UIKit
 
 //Array 是结构体实现的,结构体是值传递,所以当赋值给新常量,变量,当修改这个变量时,是不会影响的
 
-Array
-
-
 var listArr = ["元素1","元素2","元素3"]
 listArr.remove(at: 0)
 
@@ -95,6 +92,7 @@ print(secondIntegers[0].value)
 
 //遍历数组的两种方式
 let names = ["alice","bob","clic"]
+names + ["1231"]
 
 for item in names {
     print(item)
@@ -104,3 +102,8 @@ for (index ,item) in names.enumerated() {
     print("index:\(index) value:\(item)")
 }
 
+let myCount = 6
+
+for index in 0..<myCount {
+    print("index->",index)
+}

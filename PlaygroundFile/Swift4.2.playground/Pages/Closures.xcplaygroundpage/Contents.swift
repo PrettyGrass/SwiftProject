@@ -100,12 +100,6 @@ print("Now serving \(customerProvider())!")
 print(customersInLine.count)
 // 打印出 "4"
 
-
-
-
-
-
-
 //函数(全局函数,具有正常的作用域,而不是声明在其他函数体里面的函数)
 //问题1: 闭包是函数吗?
 //问题2: 函数是闭包吗?
@@ -126,7 +120,6 @@ print(customersInLine.count)
  }
  function ()
  }
- 
  value 称之为内值
  
  4.选A
@@ -134,8 +127,9 @@ print(customersInLine.count)
  逃逸闭包: 当闭包作为函数的参数,并且在函数执行完毕之后执行,称之为逃逸闭包
  自动闭包: 自动闭包是一种自动创建的闭包，用于包装传递给函数作为参数的表达式。
  eg:
- let _ = {(param: Int) -> Int in
+ let autoCloseSure = {(param: Int) -> Int in
  return 1;
  }
+ autoCloseSure()
  */
 

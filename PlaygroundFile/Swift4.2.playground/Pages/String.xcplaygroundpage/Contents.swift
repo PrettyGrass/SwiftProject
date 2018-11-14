@@ -131,7 +131,7 @@ class MyViewController : UIViewController {
         
         // tip:
 //       // 你可以在任何遵循了 RangeReplaceableIndexable 协议的类型中使用 insert(_:at:) ， insert(contentsOf:at:) ， remove(at:) 方法。这包括了这里使用的 String ，同样还有集合类型比如 Array ， Dictionary 和 Set 。
-        
+        String
 
         //# 子字符串
         let childString = "hello,world"

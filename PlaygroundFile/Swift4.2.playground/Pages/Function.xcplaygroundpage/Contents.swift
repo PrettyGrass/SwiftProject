@@ -94,6 +94,22 @@ func inoutFunction(_ a: inout Int ,_ b: inout Int) {
 }
 
 
+
+// 可选参数函数
+
+func mutableFunc(a: Int,b: Int? = 0, c: Int? = 0) {
+
+ print("mutableFunc",a,b,c)
+}
+
+func mutableFunc1(a: Int,b: Int?, c: Int?) {
+    
+    print("mutableFunc1",a,b,c)
+}
+
+mutableFunc(a: 1)
+mutableFunc(a: 1, b: 2, c: 3)
+
 //var p1 = 1
 //var p2 = 2
 //inoutFunction(p1,p2)  error
