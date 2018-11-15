@@ -131,7 +131,6 @@ class MyViewController : UIViewController {
         
         // tip:
 //       // 你可以在任何遵循了 RangeReplaceableIndexable 协议的类型中使用 insert(_:at:) ， insert(contentsOf:at:) ， remove(at:) 方法。这包括了这里使用的 String ，同样还有集合类型比如 Array ， Dictionary 和 Set 。
-        String
 
         //# 子字符串
         let childString = "hello,world"
@@ -174,8 +173,22 @@ class MyViewController : UIViewController {
         }
         print("有 \(act1SceneCount) 个 Act 1开头的字符")
         
+        
+      
+        
+    
+        
     }
     
+    
+    
+   
 }
 // Present the view controller in the Live View window
 PlaygroundPage.current.liveView = MyViewController()
+
+  //字符格式化
+for i in 0...43 {
+    let nameStr = String(format: "all_toast_%02d", i)
+    print(nameStr)
+}

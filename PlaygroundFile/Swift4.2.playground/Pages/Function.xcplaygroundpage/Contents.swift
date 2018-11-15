@@ -2,6 +2,18 @@
 
 import Foundation
 
+
+
+
+// 可省略的参数
+func test111(p1: Int,p2: Int? = 0,p3: Int = 0, p4: Int? = 0) {
+    print(p1,p2,p3,p4)
+}
+
+test111(p1: 1, p2: 2, p4: 4)
+test111(p1: 4, p3:1)
+
+
 //函数的定义与调用
 func logName(Person:String) -> Void {
     print("hello",Person)
