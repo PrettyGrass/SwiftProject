@@ -117,7 +117,7 @@ class MyViewController : UIViewController {
         //插入一段字符
          var inserString1 = "my name is "
         inserString1.insert(contentsOf: "uncle", at: inserString1.endIndex)
-        print(inserString1)
+        inserString1.insert(contentsOf: "pre", at: inserString1.startIndex)
         
         //删除最后一个字符
         var welcome1 = "hello"
@@ -128,6 +128,20 @@ class MyViewController : UIViewController {
         var welcome2 = "hello"
         let range = welcome2.startIndex ..< welcome2.endIndex
         welcome2.removeSubrange(range)
+        
+        
+        var targetStr = "remxun.doupai.cc"
+
+        var doupai = "doupai.cc"
+        
+        let rangeDoupai = targetStr.range(of: doupai)
+      
+        targetStr.replaceSubrange(rangeDoupai!, with: "")
+        print(targetStr)
+        
+//        let targetS = targetStr[0...rangeDoupai]
+//        print("===",targetS)
+      
         
         // tip:
 //       // 你可以在任何遵循了 RangeReplaceableIndexable 协议的类型中使用 insert(_:at:) ， insert(contentsOf:at:) ， remove(at:) 方法。这包括了这里使用的 String ，同样还有集合类型比如 Array ， Dictionary 和 Set 。

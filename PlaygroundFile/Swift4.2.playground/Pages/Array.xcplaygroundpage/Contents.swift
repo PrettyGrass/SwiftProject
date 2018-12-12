@@ -23,6 +23,15 @@ listArr1
 listArr2.append("新增")
 
 var students = ["Ben", "Ivy", "Jordell"]
+
+
+let arr111 = students.filter { (obj) -> Bool in
+    print(obj)
+    return true
+}
+
+print(arr111)
+
 students.append("Maxime")
 students.append("Maxime")
 
@@ -46,7 +55,6 @@ if let i = students.firstIndex(of: "Maxime") {
 let obj = studentList.first { (Student) -> Bool in
      Student.name == "陆超"
 }
-print("obj\(obj?.name)")
 
 //丢弃第一个元素,返回一个新数组
 var newArr = students.dropFirst()
@@ -107,3 +115,10 @@ let myCount = 6
 for index in 0..<myCount {
     print("index->",index)
 }
+
+//截取数组
+let numbers1 = [1, 2, 3, 4, 5]
+let numberResult = numbers1.suffix(2).shuffled()
+print(numbers1.suffix(2))
+// Prints "[4, 5]"
+print(numbers1.suffix(10))
