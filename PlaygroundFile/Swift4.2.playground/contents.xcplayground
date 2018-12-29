@@ -21,5 +21,6 @@
         <page name='ClassConvert'/>
         <page name='Protocol'/>
         <page name='Genericity_'/>
+        <page name='CodePritice'/>
     </pages>
 </playground>

@@ -1,6 +1,7 @@
 //: [Previous](@previous)
 
 import Foundation
+import UIKit
 
 /*
  闭包是自包含的函数代码块，可以在代码中被传递和使用。
@@ -100,6 +101,32 @@ print("Now serving \(customerProvider())!")
 print(customersInLine.count)
 // 打印出 "4"
 
+// Swift闭包简写参数
+// 在闭包中( 参数没有显示标明类型) $0 代表闭包的 第一个入参参数 ,可以随意进行  $n 就代表第N个参数 由编译器自动推断类型,也可以自由进行 类型转换
+// 参考文章
+
+//不可用
+//let numCloseSure = {(a :Int,b :Int) -> Int in
+//    print("$0:",$0)
+//    return $0 + $1
+//}
+//
+//print(numCloseSure(1,3))
+
+// 可用
+//func say( message: String, completion:(String) -> Void) {
+//    print(message)
+//    completion("Goodbye")
+//}
+//
+//self.say(message: "1") {print($0)}
+
+
+//say(message: "1", completion:{ (goodbye) in
+//    print(goodbye)
+//})
+
+
 //函数(全局函数,具有正常的作用域,而不是声明在其他函数体里面的函数)
 //问题1: 闭包是函数吗?
 //问题2: 函数是闭包吗?
@@ -133,3 +160,4 @@ print(customersInLine.count)
  autoCloseSure()
  */
 
+|

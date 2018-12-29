@@ -31,7 +31,7 @@ class DTRootTabBarController: UITabBarController {
 
         self.viewControllers = [basicUsageNav,advancedNav,documentNav,uiDemoNav];
 
-        let titles = ["基础","进阶","文档","示例"]
+        let titles = ["基础","进阶","收集","示例"]
         let norImages = ["icon_tab_1","icon_tab_2","icon_tab_3","icon_tab_3"]
         let selImage = ["icon_tab_1_s","icon_tab_2_s","icon_tab_3_s","icon_tab_3_s"]
         

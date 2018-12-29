@@ -129,13 +129,22 @@ class MyViewController : UIViewController {
         let range = welcome2.startIndex ..< welcome2.endIndex
         welcome2.removeSubrange(range)
         
+        var eventkey = "en_my_feedback_email"
+
+        let contentList = eventkey.components(separatedBy: "_")
+        if let prefix = contentList.first {
+            
+            let range = prefix.startIndex ..< prefix.endIndex
+            eventkey.removeSubrange(range)
+            eventkey.insert(contentsOf: "id", at: eventkey.startIndex)
+        }
+        print(eventkey)
         
         var targetStr = "remxun.doupai.cc"
 
         var doupai = "doupai.cc"
         
         let rangeDoupai = targetStr.range(of: doupai)
-      
         targetStr.replaceSubrange(rangeDoupai!, with: "")
         print(targetStr)
         
