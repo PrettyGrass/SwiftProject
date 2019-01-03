@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF90CCE521DDCC2800103A78 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CCE321DDCC2800103A78 /* WebViewController.swift */; };
+		DF90CCE621DDCC2800103A78 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF90CCE421DDCC2800103A78 /* WebViewController.xib */; };
+		DF90CCE821DDCF5900103A78 /* webview.html in Resources */ = {isa = PBXBuildFile; fileRef = DF90CCE721DDCF5900103A78 /* webview.html */; };
+		DF90CCEB21DDD0B700103A78 /* WKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF90CCE921DDD0B700103A78 /* WKWebViewController.xib */; };
+		DF90CCEC21DDD0B700103A78 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CCEA21DDD0B700103A78 /* WKWebViewController.swift */; };
 		F31A2E69216C5E9500575E65 /* DTStringDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A2E68216C5E9500575E65 /* DTStringDemoController.swift */; };
 		F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */; };
 		F32FF6E42178249E0025A5DC /* DTControlFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */; };
@@ -49,6 +54,11 @@
 		5470A2D54CABD3A8848FE97C /* Pods-SwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 		7B48C50BD24EEFCA6F348EB1 /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A58B8512EF7F21365546F7D4 /* Pods_SwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF90CCE321DDCC2800103A78 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		DF90CCE421DDCC2800103A78 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		DF90CCE721DDCF5900103A78 /* webview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webview.html; sourceTree = "<group>"; };
+		DF90CCE921DDD0B700103A78 /* WKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKWebViewController.xib; sourceTree = "<group>"; };
+		DF90CCEA21DDD0B700103A78 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 		F31A2E68216C5E9500575E65 /* DTStringDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTStringDemoController.swift; sourceTree = "<group>"; };
 		F32FE8F72176DE2F00A0FC87 /* DTGatherDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTGatherDemoController.swift; sourceTree = "<group>"; };
 		F32FF6E32178249E0025A5DC /* DTControlFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTControlFlowController.swift; sourceTree = "<group>"; };
@@ -161,6 +171,10 @@
 			children = (
 				F37BED772192E9EB00C321B5 /* DTStackViewController.swift */,
 				F37BED7D2193DF7C00C321B5 /* View.xib */,
+				DF90CCE321DDCC2800103A78 /* WebViewController.swift */,
+				DF90CCE421DDCC2800103A78 /* WebViewController.xib */,
+				DF90CCEA21DDD0B700103A78 /* WKWebViewController.swift */,
+				DF90CCE921DDD0B700103A78 /* WKWebViewController.xib */,
 			);
 			path = "进阶使用";
 			sourceTree = "<group>";
@@ -196,6 +210,7 @@
 		F3B578472160A23D0069CA62 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				DF90CCE721DDCF5900103A78 /* webview.html */,
 				F3B578412160A2250069CA62 /* Info.plist */,
 				F372386D2160C85A003A2CB6 /* Assert.xcassets */,
 				F3CCC8642194117F00499D8D /* Localizable.strings */,
@@ -358,8 +373,11 @@
 				F3BF82E021D71BA700C7FBC3 /* DTReadWebController.xib in Resources */,
 				F37BED7E2193DF7C00C321B5 /* View.xib in Resources */,
 				F3CCC8622194117F00499D8D /* Localizable.strings in Resources */,
+				DF90CCE621DDCC2800103A78 /* WebViewController.xib in Resources */,
 				F372386E2160C85A003A2CB6 /* Assert.xcassets in Resources */,
+				DF90CCE821DDCF5900103A78 /* webview.html in Resources */,
 				F3EFBB3F2174322D00D27D5C /* DescCell.xib in Resources */,
+				DF90CCEB21DDD0B700103A78 /* WKWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +456,7 @@
 				F3BF82DF21D71BA700C7FBC3 /* DTReadWebController.swift in Sources */,
 				F356B772217D9A9E005AE45D /* DTMethodController.swift in Sources */,
 				F37238712160CC62003A2CB6 /* QutuiColorExtension.swift in Sources */,
+				DF90CCEC21DDD0B700103A78 /* WKWebViewController.swift in Sources */,
 				F3B578542160A8FB0069CA62 /* DTAdvancedController.swift in Sources */,
 				F3B3B0F8217DD86300D2C91C /* DTInitController.swift in Sources */,
 				F3B2EEA12179B9440003E91E /* DTEnumerations.swift in Sources */,
@@ -447,6 +466,7 @@
 				F3F5EFCE2179D464008D6504 /* DTObjectAndStructController.swift in Sources */,
 				F3EFBB3A217429AD00D27D5C /* Const.swift in Sources */,
 				F338F55C2179740900257990 /* DTClosuresController.swift in Sources */,
+				DF90CCE521DDCC2800103A78 /* WebViewController.swift in Sources */,
 				F3C914CF2180410600657025 /* DTJXCategoryViewController.swift in Sources */,
 				F356B774217D9EE1005AE45D /* DTIndexController.swift in Sources */,
 			);

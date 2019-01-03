@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WebViewController" customModule="SwiftProject" customModuleProvider="target">
+            <connections>
+                <outlet property="continaer" destination="Q0d-XA-e5j" id="eTt-w8-mfR"/>
+                <outlet property="cpu" destination="3rx-TS-DSN" id="4Um-oV-fmm"/>
+                <outlet property="fps" destination="GmA-ai-BiI" id="8Am-9s-ydy"/>
+                <outlet property="mem" destination="mmw-F1-Ae7" id="V5s-FU-Cp0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q0d-XA-e5j">
+                    <rect key="frame" x="0.0" y="100" width="375" height="567"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OyR-ld-rqg">
+                    <rect key="frame" x="26" y="617" width="31" height="30"/>
+                    <state key="normal" title="添加"/>
+                    <connections>
+                        <action selector="addWebViewAction:" destination="-1" eventType="touchUpInside" id="BiU-XE-Cmr"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cpu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rx-TS-DSN">
+                    <rect key="frame" x="12" y="64" width="29" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmw-F1-Ae7">
+                    <rect key="frame" x="53" y="64" width="39" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmA-ai-BiI">
+                    <rect key="frame" x="104" y="64" width="25" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3rx-TS-DSN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="3XV-eO-4nc"/>
+                <constraint firstItem="mmw-F1-Ae7" firstAttribute="leading" secondItem="3rx-TS-DSN" secondAttribute="trailing" constant="12" id="4vO-aM-6ly"/>
+                <constraint firstItem="GmA-ai-BiI" firstAttribute="centerY" secondItem="mmw-F1-Ae7" secondAttribute="centerY" id="4x0-7m-Gsa"/>
+                <constraint firstItem="mmw-F1-Ae7" firstAttribute="centerY" secondItem="3rx-TS-DSN" secondAttribute="centerY" id="8rP-rb-h8H"/>
+                <constraint firstAttribute="bottom" secondItem="Q0d-XA-e5j" secondAttribute="bottom" id="9ez-iN-cSe"/>
+                <constraint firstItem="Q0d-XA-e5j" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BMr-BV-KAj"/>
+                <constraint firstAttribute="bottom" secondItem="OyR-ld-rqg" secondAttribute="bottom" constant="20" id="JzJ-Jg-59I"/>
+                <constraint firstItem="OyR-ld-rqg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="OI2-FQ-9YI"/>
+                <constraint firstItem="GmA-ai-BiI" firstAttribute="leading" secondItem="mmw-F1-Ae7" secondAttribute="trailing" constant="12" id="QAX-cj-zHt"/>
+                <constraint firstItem="3rx-TS-DSN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Z29-dR-QCV"/>
+                <constraint firstItem="Q0d-XA-e5j" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="b3z-1f-r3t"/>
+                <constraint firstAttribute="trailing" secondItem="Q0d-XA-e5j" secondAttribute="trailing" id="tzl-Bg-M9g"/>
+            </constraints>
+            <point key="canvasLocation" x="239" y="139"/>
+        </view>
+    </objects>
+</document>

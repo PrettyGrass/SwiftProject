@@ -27,11 +27,11 @@ class DTAdvancedController: DTBaseViewController {
         AdapterCellUtil.creatCell(section: section1, text: "UIStackView的使用", needSeparator: true) { (cell,indexPath) in
             pushClosure(DTStackViewController())
         }
-        AdapterCellUtil.creatCell(section: section1, text: "xx", needSeparator: true) { (cell,indexPath) in
-            //pushClosure(DTGatherDemoController())
+        AdapterCellUtil.creatCell(section: section1, text: "UIWebview 使用场景压测", needSeparator: true) { (cell,indexPath) in
+            pushClosure(WebViewController())
         }
-        AdapterCellUtil.creatCell(section: section1, text: "xx", needSeparator: true) { (cell,indexPath) in
-            //pushClosure(DTControlFlowController())
+        AdapterCellUtil.creatCell(section: section1, text: "WKWebview 使用场景压测", needSeparator: true) { (cell,indexPath) in
+            pushClosure(WKWebViewController())
         }
         AdapterCellUtil.creatCell(section: section1, text: "xx", needSeparator: true) { (cell,indexPath) in
             //pushClosure(DTFunctionController())
