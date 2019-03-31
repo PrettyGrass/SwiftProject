@@ -1,4 +1,5 @@
+# 排除目录
 --exclude Pods,Generated
 
-# 空方法实现
-#emptyBraces
+# 空方法 方法体在同一行
+--disable emptyBraces

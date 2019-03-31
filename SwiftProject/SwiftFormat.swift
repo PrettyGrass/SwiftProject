@@ -20,4 +20,8 @@ class SwiftFormat: Any {
     func emptyBraces() {
         
     }
+    /// 连续的方法
+    func emptyBraces1() {
+        
+    }
 }
