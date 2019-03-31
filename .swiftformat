@@ -1,5 +1,30 @@
 # 排除目录
 --exclude Pods,Generated
 
-# 空方法 方法体在同一行
+
+# emptyBraces 空方法 方法体在同一行
 --disable emptyBraces
+
+# 禁用 case: break;
+--disable redundantBreak
+
+# 禁用 let error from catch statements 隐式参数
+--disable redundantLetError
+
+# redundantPattern
+
+# 枚举名和值相同时, 直接使用枚举名
+--disable redundantRawValues
+
+# self访问属性
+--self insert
+
+# 泛型类型空格
+--disable spaceAroundGenerics
+
+# @IBOutlet 强引用
+--disable strongOutlets
+
+# 未使用的函数参数 使用 _
+--disable unusedArguments
+# --stripunusedargs closure-only
