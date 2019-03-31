@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0C08B42250A53C00C6989E /* SwiftFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C08B32250A53C00C6989E /* SwiftFormat.swift */; };
 		DF90CCE521DDCC2800103A78 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CCE321DDCC2800103A78 /* WebViewController.swift */; };
 		DF90CCE621DDCC2800103A78 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF90CCE421DDCC2800103A78 /* WebViewController.xib */; };
 		DF90CCE821DDCF5900103A78 /* webview.html in Resources */ = {isa = PBXBuildFile; fileRef = DF90CCE721DDCF5900103A78 /* webview.html */; };
@@ -54,6 +55,7 @@
 		5470A2D54CABD3A8848FE97C /* Pods-SwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.release.xcconfig"; sourceTree = "<group>"; };
 		7B48C50BD24EEFCA6F348EB1 /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A58B8512EF7F21365546F7D4 /* Pods_SwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0C08B32250A53C00C6989E /* SwiftFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFormat.swift; sourceTree = "<group>"; };
 		DF90CCE321DDCC2800103A78 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		DF90CCE421DDCC2800103A78 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		DF90CCE721DDCF5900103A78 /* webview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webview.html; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				F3B578352160A2240069CA62 /* AppDelegate.swift */,
 				F3B578482160A2510069CA62 /* Main */,
 				F3B578472160A23D0069CA62 /* Other */,
+				DF0C08B32250A53C00C6989E /* SwiftFormat.swift */,
 			);
 			path = SwiftProject;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				F3F5EFD02179D911008D6504 /* DTPropertyController.swift in Sources */,
 				F3EFBB412174335B00D27D5C /* PGVerticalLabel.swift in Sources */,
 				F3B578362160A2240069CA62 /* AppDelegate.swift in Sources */,
+				DF0C08B42250A53C00C6989E /* SwiftFormat.swift in Sources */,
 				F3B29D77217DC32D000B8C35 /* DTExtendsController.swift in Sources */,
 				F3C0E445217F39F500934215 /* DTDeInitController.swift in Sources */,
 				F32FE8F82176DE2F00A0FC87 /* DTGatherDemoController.swift in Sources */,
